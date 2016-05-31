@@ -76,5 +76,5 @@ Voir le Codex pour plus de détails sur les [Rôles et capacités](http://codex
 Pour plus d’informations sur ces éléments de base, lire :
 
 * Codex Francophone, [Premiers pas avec WordPress](http://codex.wordpress.org/fr:Premiers_pas_avec_WordPress)
-* * Patrick Finot, [Premiers pas dans l’administration de WordPress](http://www.informatique-enseignant.com/decouvrir-administration-wordpress/)
+* Patrick Finot, [Premiers pas dans l’administration de WordPress](http://www.informatique-enseignant.com/decouvrir-administration-wordpress/)
 
