@@ -35,41 +35,46 @@ Particularités des pages :
 
 Pour plus d’explications:
 
-– Olivier Grobet : *Différences entre une Page et un article* (vidéo), http://goo.gl/pf8wwp
-– Support WordPress.com: *Post vs. Page*, http://goo.gl/LMrXDG
-– WPBeginner : *What is the Difference Between Posts vs. Pages in WordPress*, http://goo.gl/EYbvGm
+* Olivier Grobet : *[Différences entre une Page et un article](http://www.elephorm.com/tutoriel-wordpress/differences-entre-une-page-un-article)* (vidéo)
+* Support WordPress.com: *[Post vs. Page](https://en.support.wordpress.com/post-vs-page/)*
+* WPBeginner : *[What is the Difference Between Posts vs. Pages in WordPress](http://www.wpbeginner.com/beginners-guide/what-is-the-difference-between-posts-vs-pages-in-wordpress/)*
 
 Catégories, mots-clés (et taxonomies)
----
+===
 
 Ils permettent d’organiser vos contenus. Les catégories et mots-clés sont les deux systèmes de classements (taxonomies) actifs par défaut. Il est possible d’en rajouter d’autres selon les besoins – on parlera alors de custom taxonomies.
 
 Post Formats
+===
 
 Certains thèmes permettent l’utilisation des « formats d’articles » (Post Formats), qui permettent une présentation visuelle différente pour certains formats prédéfinis, p.ex. En passant, Image, Vidéo, Son, Citation, Lien, Galerie. Ces formats sont appliqués aux Articles, à la manière des Catégories et Mots-clés.
 Ces Post Formats sont différents des Custom Post Types, qui permettent d’ajouter de nouveaux types de contenus à un site, en plus des Articles et Pages (p.ex. un plugin de gestion d’événements pourra ajouter un type de contenu Evénement).
 
 Menus
+===
 
 Selon le thème utilisé, vous aurez un ou plusieurs emplacements pouvant accueillir des Menus de navigation. Vous créez ces menus en allant dans Apparence → Menus.
 
 Widgets
+===
 
 Similaires aux Menus, les Widgets sont de petits modules pouvant être glissés dans les emplacements que le thème a prévus. Il peut s’agir d’une liste d’articles récents, d’un nuage de mots-clés, d’un formulaire d’abonnement à une newsletter, d’une notice en pied de page...
 
 Les auteurs
+===
+
 Votre site comprendra un ou plusieurs auteurs avec différents niveaux d’accès. Par défaut, WordPress offre les rôles suivants : 
 
-* Administrateur : tous les accès
-* Editeur : peut publier et modifier des articles, y compris ceux des autres.
-* Auteur : peut publier et modifier ses propres articles.
-* Contributeur : peut écrire et gérer ses articles, mais ne peut les publier.
-* Abonné : ne peut gérer que son profil.
+* **Administrateur** : tous les accès
+* **Editeur** : peut publier et modifier des articles, y compris ceux des autres.
+* **Auteur** : peut publier et modifier ses propres articles.
+* **Contributeur** : peut écrire et gérer ses articles, mais ne peut les publier.
+* **Abonné** : ne peut gérer que son profil.
 
-Voir le Codex pour plus de détails : http://goo.gl/A4xb6w
+Voir le Codex pour plus de détails sur les [Rôles et capacités](http://codex.wordpress.org/fr:R%C3%B4les_et_Capacit%C3%A9s).
 
 Pour plus d’informations sur ces éléments de base, lire :
 
-* Codex Francophone, Premiers pas avec WordPress,  http://goo.gl/ZUBCtY
-* Patrick Finot, Premiers pas dans l’administration de WordPress, http://goo.gl/A2IucU
+* Codex Francophone, [Premiers pas avec WordPress](http://codex.wordpress.org/fr:Premiers_pas_avec_WordPress)
+* * Patrick Finot, [Premiers pas dans l’administration de WordPress](http://www.informatique-enseignant.com/decouvrir-administration-wordpress/)
 
