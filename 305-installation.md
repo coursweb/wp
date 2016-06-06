@@ -42,15 +42,13 @@ Dans cette configuration, il y a quatre niveaux de dossiers:
 3) Installation de WordPress
 ===
 
-Nous pourrions maintenant suivre [la procédure classique d'installation de WordPress](http://codex.wordpress.org/fr:Installer_WordPress): télécharger le fichier ZIP de la dernière version de WordPress, le dézipper, le mettre en ligne par FTP, créer une base de données, parcourir les étapes de l'installeur de WordPres... 
+Nous pourrions maintenant suivre [la procédure classique d'installation de WordPress](http://codex.wordpress.org/fr:Installer_WordPress): télécharger le fichier ZIP de la dernière version de WordPress, le dézipper, le mettre en ligne par FTP, créer une base de données, parcourir les étapes de l'installeur de WordPress... 
 
 Mais puisque notre hébergeur propose une interface (Softaculous) qui automatise toutes ces étapes, nous pouvons aller encore plus vite.
 
 Rendez-vous dans la partie permettant d'installer des applications:
 
 ![title](/cours-web/cours-wp/img/cpanel-apps.png)
-
-http://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/softaculous
 
 Cliquez l'icône de WordPress, puis cliquez "Installation" (ou *Install Now*).
 
