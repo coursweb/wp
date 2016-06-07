@@ -20,10 +20,10 @@ Plusieurs solutions
 
 Pour supprimer ces éléments inutiles, plusieurs approches sont possibles:
 
-- Intervention en surface: masquer les éléments avec des **styles CSS personnalisés**.
-- Intervention en profondeur: modifier les templates du thème utilisé, idéalement en utilisant un [thème enfant](theme-enfant).
+- **Intervention en surface:** masquer les éléments avec des **styles CSS personnalisés**.
+- **Intervention en profondeur:** modifier les templates du thème utilisé, idéalement en utilisant un [thème enfant](theme-enfant).
 
-Nous allons ici explorer la première solution, probablement plus simple à mettre en œuvre.
+Nous allons ici explorer la première solution, plus simple à mettre en œuvre.
 
 CSS personnalisé
 ===
