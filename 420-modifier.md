@@ -71,7 +71,7 @@ Supposons que nous utilisons le thème Cubic, dont voici [la page de démonstrat
 
 ![Le thème Cubic](/cours-web/cours-wp/img/cubic-homepage.jpg)
 
-Admettons que la présence des dates nous déplait, et que nous souhaitons les masquer.
+Supposons que la présence des dates nous déplait, et que nous souhaitons les masquer.
 
 Nous allons utiliser l'inspecteur de notre navigateur, pour détecter les *identifiants* ou *classes* à utiliser pour masquer la date.
 
@@ -79,9 +79,50 @@ Faites un clic-droit sur l'élément que vous souhaitez investiguer, et choisiss
 
 ![](/cours-web/cours-wp/img/chrome-inspect.jpg)
 
+Avec l'aide de l'inspecteur, vous pouvez parcourir le code, et vérifier comment se nomme l'élément à masquer.
 
+![](/cours-web/cours-wp/img/inspection-code.png)
 
+Ici, nous pouvons voir que l'élément `<header class="entry-header">`contient à la fois la date et le titre. L'élément `<div class="entry-meta">` contient la date uniquement. C'est donc cet élément que nous souhaitons masquer.
 
+Voyons ce qui se produit si nous ajoutons le code suivant à notre CSS custom:
 
+```css
+.entry-meta {
+    display: none;
+}
+```
 
+Note: la propriété [`display`](https://developer.mozilla.org/fr/docs/Web/CSS/display) avec la valeur `none` permet de masquer un élément.
 
+![](/cours-web/cours-wp/img/resultat-1.jpg)
+
+Résultat: la date est effectivement masquée... mais l'absence d'espacement au-dessus du titre est plutôt disgrâcieux.
+
+L'inspecteur nous indique que la marge du bas (padding-bottom) est est de 6px... et que la marge du haut est tronquée par le code suivant:
+
+```css
+.entry-meta + .entry-title a {
+    padding-top: 0;
+    margin-top: -6px;
+}
+```
+
+Nous allons reprendre ce code, en modifiant les valeurs:
+
+```css
+.entry-meta + .entry-title a {
+    padding-top: 6px;
+    margin-top: 0px;
+}
+```
+
+Résultat:
+
+![](/cours-web/cours-wp/img/dates-masquees.jpg)
+
+Un détail: nous aurions pu ajouter cette marge sur un autre élément, comme `.entry-header`, ou `.entry-title` - cela donnerait le même résultat visuellement. Pourquoi avoir choisi de le mettre sur `.entry-title a`? 
+
+C'est simple: étant donné que le `<a>` est l'élément réagissant au clic, en attribuant la marge à cet élément, nous *agrandissons* la zone "sensible" - nous améliorons ainsi l'usabilité, p. ex. pour un usager de tablette tactile.
+
+***
