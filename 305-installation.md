@@ -4,8 +4,6 @@ title: Installation
 permalink: /wp/installation
 ---
 
-Installation de WordPress
-
 Ce document indique comment installer un site WordPress chez l'hébergeur [o2switch](http://www.o2switch.fr/). Chez d'autres hébergeurs, la procédure sera semblable. Nous utilisons l'installation "one-click" proposée par l'hébergeur.
 
 1) Choix du nom de domaine. 
