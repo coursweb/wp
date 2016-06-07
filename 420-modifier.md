@@ -136,7 +136,7 @@ Après ce premier succès, intéressons-nous aux pages individuelles des article
 
 Ici encore, l'inspecteur nous révèle le nom de cette zone:
 
-```css
+```html
 <footer class="entry-footer">
 ```
 
