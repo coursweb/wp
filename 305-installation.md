@@ -6,38 +6,38 @@ permalink: /wp/installation
 
 Installation de WordPress
 
-Ce document indique comment installer un site WordPress chez l'hébergeur o2switch. Chez d'autres hébergeurs, la prodécude sera semblable. Nous utilisons l'installation "one-click" proposée par l'hébergeur, cela nous évite l'étape de création d'une base de données.
+Ce document indique comment installer un site WordPress chez l'hébergeur [o2switch](http://www.o2switch.fr/). Chez d'autres hébergeurs, la procédure sera semblable. Nous utilisons l'installation "one-click" proposée par l'hébergeur.
 
 1) Choix du nom de domaine. 
 === 
 
 Votre site devra être accessible sous un nom de domaine. Vous avez deux possibilités: un **domaine** ou un **sous-domaine**.
 
-Le premier cas sera celui d'un nouveau domaine - **example.com** - que vous aurez réservé auprès d'un Registrar. 
+Le premier cas sera celui d'un domaine - **example.com** - que vous aurez réservé auprès d'un Registrar (p.ex. [Infomaniak](https://www.infomaniak.ch/fr/domaines), [Gandi](https://www.gandi.net/domaine)...). 
 
-Dans l'interface o2switch, vous devez vous rendre dans la partie concernant la gestion des noms de domaine ("Domaines supplémentaires"), pour l'y ajouter.
+Dans l'interface o2switch, vous devez vous rendre dans la partie concernant la gestion des noms de domaine ("Domaines supplémentaires"), pour y ajouter le vôtre.
 
 ![title](/cours-web/cours-wp/img/cpanel-domaines.png)
 
-Dans le deuxième cas, si vous optez pour un sous-domaine - du type **sousdomaine**.example.com - vous allez vous rendre sur l'écran concernant les "Sous-domaines". Vous allez ajouter un nouveau sous-domaine, en chosissant dans la liste le domaine parent.
+Dans le deuxième cas, si vous optez pour un sous-domaine - du type **sousdomaine**.example.com - vous devez vous rendre sur l'écran concernant les "Sous-domaines". Vous pouvez ajouter un nouveau sous-domaine, en chosissant dans la liste le domaine parent.
 
 ![title](/cours-web/cours-wp/img/cpanel-sous-domaines-config-1-cpanel.png)
 
 2) Choix de la structure des dossiers
 ===
 
-Durant cette procédure, l'hébergeur demande d'indiquer le dossier – "Racine du document" – qui correspondra à ce site. En effet, chaque site faisant partie de l'hébergement pointe vers un endroit spécifique dans la structure des dossiers.
+Durant cette procédure, l'hébergeur demande d'indiquer le dossier – "Racine du document" – dans lequel seront placés les fichiers du site. En effet, chaque site faisant partie de l'hébergement pointe vers un endroit spécifique dans la structure des dossiers.
 
-Voici une structure possible, sachant qu'il s'agit d'un hébergement partagé par plusieurs utilisateurs pouvant avoir chacune plusieurs sites. Nous utilisons uniquement des caractères minuscules et sans accents.
+Voici une structure possible, sachant qu'il s'agit d'un hébergement partagé par plusieurs utilisateurs pouvant avoir chacun plusieurs sites. Utilisez uniquement des caractères minuscules et sans accents.
 
 `/sites/martine/mon-premier-site/web/`
 
-Dans cette configuration, il y a quatre niveaux de dossiers:
+Voici les quatre niveaux de dossiers utilisés dans cette configuration:
 
 1. Nous rangeons tous les sites dans le dossier `sites` à la racine du répertoire.
 2. Ensuite, chaque utilisateur a un dossier avec son prénom (p.ex. `martine`), qui contiendra ses projets.
 3. Troisièmement, chaque site a son propre dossier (p.ex. `mon-premier-site`). Vous êtes libre de choisir son nom.
-4. Finalement, la partie "visible sur Internet" du site est située dans le dossier nommé `web`. Cela permet d'avoir pour chaque site un espace "non accessible par le web", pour y placer des fichiers de configuration spécifiques au site. Par exemple, le fichier `wp-config.php` pour un site WordPress.
+4. Finalement, la partie "visible sur Internet" du site est située dans le dossier nommé `web`. Cela permet d'avoir pour chaque site un espace "non accessible par le web", pour y placer des fichiers de configuration spécifiques au site. Par exemple, le fichier [`wp-config.php`](http://codex.wordpress.org/Hardening_WordPress#Securing_wp-config.php) pour un site WordPress.
 
 3) Installation de WordPress
 ===
