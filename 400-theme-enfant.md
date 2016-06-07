@@ -11,3 +11,6 @@ Permet d’ajouter des fonctions sans modifier le thème de base (susceptible d�
 
 Exemple: lien Github vers un theme-enfant de TwentySixteen, qui remplace les fontes du thème. (TODO)
 
+Voici un bon tutoriel pour commencer:     
+[http://wpformation.com/theme-enfant-wordpress/](http://wpformation.com/theme-enfant-wordpress/)
+
