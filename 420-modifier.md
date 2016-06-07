@@ -67,15 +67,15 @@ Trouver le code à modifier
 
 Maintenant que nous avons la technique en place, nous devons trouver quel est le code correspondant à l'élément que nous souhaitons masquer.
 
-Supposons que nous utilisons le thème Cubic, dont voici [la page de démonstration](https://cubicdemo.wordpress.com/).
+Supposons que nous utilisons le thème Cubic, un très beau thème [développé par Thomas Guillot](https://thomasguillot.com/2015/01/16/new-theme-cubic/) pour Automattic, dont voici [la page de démonstration](https://cubicdemo.wordpress.com/).
 
 ![Le thème Cubic](/cours-web/cours-wp/img/cubic-homepage.jpg)
 
-Supposons que la présence des dates nous déplait, et que nous souhaitons les masquer.
+Supposons que la présence des dates de publication nous déplait, et que nous souhaitons les masquer.
 
 Nous allons utiliser l'inspecteur de notre navigateur, pour détecter les *identifiants* ou *classes* à utiliser pour masquer la date.
 
-Faites un clic-droit sur l'élément que vous souhaitez investiguer, et choisissez "Inspecter".
+Faites un clic-droit sur l'élément qui vous intéresse, et choisissez "Inspecter".
 
 ![](/cours-web/cours-wp/img/chrome-inspect.jpg)
 
@@ -83,7 +83,9 @@ Avec l'aide de l'inspecteur, vous pouvez parcourir le code, et vérifier comment
 
 ![](/cours-web/cours-wp/img/inspection-code.png)
 
-Ici, nous pouvons voir que l'élément `<header class="entry-header">`contient à la fois la date et le titre. L'élément `<div class="entry-meta">` contient la date uniquement. C'est donc cet élément que nous souhaitons masquer.
+Ici, nous pouvons voir que l'élément `<header class="entry-header">`contient à la fois la date et le titre. L'élément `<div class="entry-meta">` contient la date uniquement. 
+
+C'est donc cet élément que nous souhaitons masquer. Nous allons le cibler en utilisant sa classe, `.entry-meta`.
 
 Voyons ce qui se produit si nous ajoutons le code suivant à notre CSS custom:
 
@@ -117,7 +119,7 @@ Nous allons reprendre ce code, en modifiant les valeurs:
 }
 ```
 
-Résultat:
+Ajoutons ce code à notre CSS custom, et obervons le résultat:
 
 ![](/cours-web/cours-wp/img/dates-masquees.jpg)
 
@@ -125,4 +127,67 @@ Un détail: nous aurions pu ajouter cette marge sur un autre élément, comme `.
 
 C'est simple: étant donné que le `<a>` est l'élément réagissant au clic, en attribuant la marge à cet élément, nous *agrandissons* la zone "sensible" - nous améliorons ainsi l'usabilité, p. ex. pour un usager de tablette tactile.
 
-***
+Un deuxième exemple...
+===
+
+Après ce premier succès, intéressons-nous aux pages individuelles des articles. Nous pouvons voir que chaque article comporte une section "Posté dans... Tagué..." qui peut nous paraître superflue.
+
+![](/cours-web/cours-wp/img/entry-footer.jpg)
+
+Ici encore, l'inspecteur nous révèle le nom de cette zone:
+
+```css
+<footer class="entry-footer">
+```
+
+Essayons le code CSS custom suivant, pour voir:
+
+```css
+.entry-footer {
+    display: none;
+}
+```
+
+Le résultat semble probant, toutes les métadonnées sont désormais masquées. Le seul point dérangeant est que, une fois de plus, nous avons une marge qui est trop étroite (24px pour la marge du bas, alors que celle du haut est de 72px).
+
+![](/cours-web/cours-wp/img/inspect-single.jpg)
+
+On peut voir dans le code que les 72px sont définis de la manière suivante:
+
+```css
+@media screen and (min-width: 768px) {
+    .entry-content {
+        padding-top: 72px;
+    }
+}
+```
+
+Il s'agit donc d'une Media Query, donnat cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus.
+
+Nous pouvons reprendre ce code, et modifier la valeur: comme il y a déjà une marge de 24px, nous allons **ajouter 48px** pour que le total soit de 72px.
+
+Voilà le code que nous ajoutons à notre custom CSS:
+
+```css
+@media screen and (min-width: 768px) {
+    .entry-content {
+        padding-bottom: 48px;
+    }
+}
+```
+
+Résultat: nous avons maintenant des marges inférieures et suppérieures parfaitement ajustées.
+
+Conclusion
+===
+
+Il est relativement aisé, en se servant de l'inspecteur de votre navigateur, de trouver les classes CSS des éléments que l'on souhaite masquer ou modifier.
+
+La méthode décrite ici a toutefois ses limites:
+
+- Vous ne pouvez pas faire de versionnement de votre code.
+- Vous ne bénéficiez pas d'un éditeur de code (comme Atom ou Sublime Text) qui pourrait vous aider à écrire du CSS correct.
+- Vous ne pouvez pas diviser votre code en plusieurs feuilles de style.
+- Vous ne pouvez pas modifier les templates ou fonctions du thème.
+
+Pour éviter ces limitations et élargir les possibilités de personalisation, il est recommandé de créer [un thème enfant](theme-enfant).
