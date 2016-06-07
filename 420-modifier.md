@@ -162,7 +162,7 @@ On peut voir dans le code que les 72px sont définis de la manière suivante:
 }
 ```
 
-Il s'agit donc d'une Media Query, donnat cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus.
+Il s'agit donc d'une Media Query, produisant cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus.
 
 Nous pouvons reprendre ce code, et modifier la valeur: comme il y a déjà une marge de 24px, nous allons **ajouter 48px** pour que le total soit de 72px.
 
@@ -181,12 +181,12 @@ Résultat: nous avons maintenant des marges inférieures et suppérieures parfai
 Conclusion
 ===
 
-Il est relativement aisé, en se servant de l'inspecteur de votre navigateur, de trouver les classes CSS des éléments que l'on souhaite masquer ou modifier.
+Il est relativement aisé, en se servant de l'inspecteur du navigateur, de trouver les classes CSS des éléments que l'on souhaite masquer ou modifier.
 
 La méthode décrite ici a toutefois ses limites:
 
-- Vous ne pouvez pas faire de versionnement de votre code.
-- Vous ne bénéficiez pas d'un éditeur de code (comme Atom ou Sublime Text) qui pourrait vous aider à écrire du CSS correct.
+- Vous ne pouvez pas faire de **versionnement** de votre code.
+- Vous ne bénéficiez pas des automatismes d'un éditeur de code (comme [Atom](https://atom.io/) ou [Sublime Text](https://www.sublimetext.com/)) qui pourrait vous aider à écrire du CSS correct.
 - Vous ne pouvez pas diviser votre code en plusieurs feuilles de style.
 - Vous ne pouvez pas modifier les templates ou fonctions du thème.
 
