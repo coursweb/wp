@@ -101,7 +101,7 @@ Note: la propriété [`display`](https://developer.mozilla.org/fr/docs/Web/CSS/d
 
 Résultat: la date est effectivement masquée... mais l'absence d'espacement au-dessus du titre est plutôt disgrâcieux.
 
-L'inspecteur nous indique que la marge du bas (padding-bottom) est est de 6px... et que la marge du haut est tronquée par le code suivant:
+L'inspecteur nous indique que la marge du bas (padding-bottom) est de 6px... et que la marge du haut est tronquée par le code suivant:
 
 ```css
 .entry-meta + .entry-title a {
@@ -190,4 +190,4 @@ La méthode décrite ici a toutefois ses limites:
 - Vous ne pouvez pas diviser votre code en plusieurs feuilles de style.
 - Vous ne pouvez pas modifier les templates ou fonctions du thème.
 
-Pour éviter ces limitations et élargir les possibilités de personalisation, il est recommandé de créer [un thème enfant](theme-enfant).
+Pour éviter ces limitations et élargir les possibilités de personnalisation, il est recommandé de créer [un thème enfant](theme-enfant).
