@@ -59,7 +59,9 @@ Rédiger en Markdown
 ===
 
 Le format Markdown, inventé par John Gruber et Aaron Swartz, est une syntaxe minimale de formatage permettant d’écrire dans un éditeur de code, suivant quelques conventions simples. Par exemple, *ces mots* sont en italique, et **ceux-ci** en gras. 
+
 En novembre 2013, WordPress.com a introduit la possibilité d’écrire en Markdown (dans Réglages → Options d’écriture).
+
 Depuis janvier 2014, cette fonctionnalité est incluse dans le plugin Jetpack à destination des sites WordPress indépendants.
 
 Plus d’infos :
