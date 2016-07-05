@@ -9,7 +9,7 @@ Menus et widgets
 
 Création de menus et widgets
 
-Les menus sont un élément spécifique, que vous pourrez administrer en vous rendant sous Apparence > Menus. Votre thème proposera un ou plusieurs emplacements pour les menus de navigation. La procédure de création d'une menu passe par ces étapes :
+Les menus sont un élément spécifique, que vous pourrez administrer en vous rendant sous *Apparence > Menus*. Votre thème proposera un ou plusieurs emplacements pour les menus de navigation. La procédure de création d'une menu passe par ces étapes :
 
 * Créer le menu.
 * Ajouter des éléments de navigation au menu.

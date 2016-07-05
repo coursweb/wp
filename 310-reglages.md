@@ -16,7 +16,7 @@ Quelques réglages initiaux qu’il est utile de faire aussi tôt que possible l
 1) La visibilité du site
 ==
 
-Ce réglage permet d’empêcher l’indexation d’un site par les engins de recherche. Votre site n’apparaîtra donc pas dans les résultats de recherche Google. Attention à ne pas oublier de changer ce réglage lorsque vous finissez la phase développement!
+Sous *Réglages → Lecture → Visibilité pour les moteurs de recherche*. Ce réglage permet d’empêcher l’indexation d’un site par les engins de recherche. Votre site n’apparaîtra donc pas dans les résultats de recherche Google. Utile si le contenu du site est bidon et que le site n'est pas prêt. **Attention à ne pas oublier de changer ce réglage lorsque vous finissez la phase développement!**
 
 2) La structure des permaliens
 ==
@@ -29,14 +29,14 @@ La structure recommandée par spécialistes de l’optimisation pour moteurs de 
 
 Ainsi le permalien de votre article va ressembler à `monsite.com/recette-tarte-aux-pommes` – il sera à la fois plus parlant pour l’utilisateur, et plus pertinent pour l’indexation par les moteurs de recherche.
 
-NB: dans les versions de WordPress plus anciennes, la structure Nom de l’article était déconseillée pour des raisons de performance. Depuis la version 3.3 de WordPress, sortie en décembre 2011, ce problème est résolu (ticket #16687). Cette structure peut désormais être utilisée sans pénalisation.
+NB: dans les versions de WordPress plus anciennes, la structure *Nom de l’article* était déconseillée pour des raisons de performance. Depuis la version 3.3, sortie en décembre 2011, ce problème est résolu (ticket #16687), et cette structure peut désormais être utilisée sans pénalisation.
 
 3) Commentaires ouverts ou fermés
 ==
 
 Décidez si les articles de votre site permettront généralement des commentaires, ou pas.
 
-Cette option se trouve dans Réglages → Discussion, et s’intitule Autoriser les visiteurs à publier des commentaires sur les derniers articles. Par défaut, les commentaires sont ouverts sur tous vos articles – ainsi que sur les pages de vos images et fichiers attachés.
+Cette option se trouve dans *Réglages → Discussion*, et s’intitule Autoriser les visiteurs à publier des commentaires sur les derniers articles. Par défaut, les commentaires sont ouverts sur tous vos articles – ainsi que sur les pages de vos images et fichiers attachés.
 
 Désactivez ce réglage si vous ne souhaitez pas ouvrir les commentaires sur tous vos articles. 
 
@@ -57,5 +57,7 @@ Configurer les formats des versions *miniatures*, *moyennes* et *grandes* de vos
 De manière générale, les valeurs proposées risquent de produire des images un peu trop petites pour le standards de 2016. Voici un réglage qui paraît plus approprié:
 
 * **Miniatures:** 500 x 500 px
-* **Moyennes:** 1200 x 1200 px
-* **Grandes:** 2400 x 2400 px
+* **Moyennes:** 900 x 900 px
+* **Grandes:** 2000 x 2000 px
+
+Attention: en cas de modification de ces valeurs, les nouveaux réglages seront pris en compte pour les futurs ajouts, mais *ne vont **pas** s'appliquer* aux images déjà existantes. Si des images ont déjà été importées, il faudra "recalculer les miniatures", ce que l'on peut faire au moyen d'un extension.
