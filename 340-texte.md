@@ -49,20 +49,20 @@ Importance du "slug" dans le permalien.
 
 Le ”slug” est l'élément du permalien référent à un contenu de votre site (article, page, catégorie...). Le slug correspond normalement au titre de l’article. Vous pouvez décider de le modifier manuellement, afin qu'il soit aussi pertinent que possible. C'est un élément important pour l'indexation par les engins de recherche.
 
-***
-
 Le champ "extrait".
+===
 
-***
+Voir [la documentation](https://codex.wordpress.org/fr:Extrait).
+
 
 Rédiger en Markdown 
 ===
 
-Le format Markdown, inventé par John Gruber et Aaron Swartz, est une syntaxe minimale de formatage permettant d’écrire dans un éditeur de code, suivant quelques conventions simples. Par exemple, *ces mots* sont en italique, et **ceux-ci** en gras. 
+Le format Markdown, inventé par John Gruber et Aaron Swartz, est une syntaxe minimale de formatage permettant d’écrire dans un éditeur de code, suivant quelques conventions simples. Par exemple, `*ces mots*` sont en italique, et `**ceux-ci**` en gras. 
 
-En novembre 2013, WordPress.com a introduit la possibilité d’écrire en Markdown (dans Réglages → Options d’écriture).
+En novembre 2013, WordPress.com a introduit la possibilité d’écrire en Markdown (dans *Réglages → Options d’écriture*).
 
-Depuis janvier 2014, cette fonctionnalité est incluse dans le plugin Jetpack à destination des sites WordPress indépendants.
+Depuis janvier 2014, cette fonctionnalité est incluse dans le plugin *Jetpack* à destination des sites WordPress indépendants.
 
 Plus d’infos :
 
