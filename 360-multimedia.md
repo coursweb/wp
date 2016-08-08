@@ -14,7 +14,7 @@ Fichiers multimedia
 Fichiers multimédia
 ===
 
-WordPress vous permet d'ajouter des fichiers vidéo et audio à vos articles. Depuis la version 3.6, WordPress inclut un lecteur qui affichera les fichiers audio (mp3) ou vidéo (mp4) sur la partie publique du site.
+WordPress vous permet d'ajouter des fichiers vidéo et audio à vos articles. WordPress inclut un lecteur qui affichera les fichiers audio (mp3) ou vidéo (mp4) sur la partie publique du site.
 
 Pour insérer une vidéo depuis Youtube ou Vimeo (ou DailyMotion, et des dizaines d'autres services), il suffit d’insérer le lien de cette vidéo dans le corps de votre article. WordPress va automatiquement produire le lecteur vidéo correspondant.
 

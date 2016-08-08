@@ -27,7 +27,9 @@ Les dimensions optimales des images vont dépendre de la mise en page de votre t
 Les formats configurés
 ===
 
-WordPress crée trois tailles supplémentaires de votre image uploadée (*miniature*, *moyenne*, *grande*). Choisir la taille insérée en fonction de vos besoins, mais surtout en fonction du thème. Généralement, la taille moyenne sera la plus appropriée.
+WordPress crée trois tailles supplémentaires de votre image uploadée (*miniature*, *moyenne*, *grande*). Les dimensions sont définies lors de la [configuration du thème](reglages).
+
+Choisir la taille insérée en fonction de vos besoins, mais surtout en fonction du thème. Généralement, la taille moyenne sera la plus appropriée.
 
 Pour reformater un grand nombre d’images (p.ex. suite à un changement de thème, le  plugin **Regenerate Thumbnails** facilite l’opération :
 [http://wordpress.org/plugins/regenerate-thumbnails/](http://wordpress.org/plugins/regenerate-thumbnails/)
@@ -44,17 +46,17 @@ Insertion d'images
 
 Il y a deux manières d'insérer des images dans WordPress.
 
-– Insérer une image unique.
+**Insérer une image unique.**
 
 Il est possible d'insérer une suite d'images, puis de rédiger l'article entre les images.
 
-– Insérer une galerie d’images.
+**Insérer une galerie d’images.**
 
 Voir aussi : 
 
 * Patrick Finot, [La gestion des images dans WordPress](http://www.informatique-enseignant.com/gestion-images-wordpress/), septembre 2013 
 
-***
+TODO: 
 
 - reformater, crop d'une image.
 - galeries d'images.

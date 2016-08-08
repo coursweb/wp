@@ -6,7 +6,19 @@ permalink: /wp/
 
 Introduction à WordPress.
 
-Un mini-historique:
+Définitions
+---
+
+**WordPress** est un système de gestion de contenus. 
+
+Par défaut, WordPress comprend un certain nombre de fonctionnalités (p.ex: contenus par défaut, gestion des médias, gestion des utilisateurs...). On parle de fonctionnalités faisant partie du noyau de WordPress ("core functionality").
+
+D'autres fonctionalités peuvent être ajoutés par des **extensions** (en anglais: plugins). Exemple: ajouter un formulaire de contact. Les extensions peuvent être ajoutées à WordPress. Elles peuvent être gratuitement partagées (souvent sur le site WordPress.org), faire l'objet d'une distribution commerciale, ou être développées sur mesure pour un besoin spécifique.
+
+Le **thème** définit la présentation visuelle d'un site WordPress. Il est nécessaire d'avoir un thème activé, pour qu'un site WordPress soit fonctionnel.
+
+Mini-historique:
+===
 
 L’année 2016 marque le 13e anniversaire de WordPress, la version 1.0 étant sortie en 2003.
 
@@ -14,20 +26,20 @@ En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic,
 
 Pour plus d’infos sur l’historique de WordPress, lire [https://github.com/WordPress/book](https://github.com/WordPress/book) (en anglais).
 
-WordPress, blog ou CMS?
+Blog vs. CMS
 ===
 
-Si dans ses débuts, WordPress était un « simple outil de blogging », il est devenu au fil du temps un système de gestion de contenus polyvalent. Il est utilisé de plus en plus couramment pour des sites d’entreprises, d’institutions, ou de commerce en ligne.
+Si dans ses débuts, WordPress était un « simple outil de blogging », il est devenu au fil du temps un système de gestion de contenus polyvalent. Il est utilisé couramment pour des sites d’entreprises, d’institutions, ou de commerce en ligne.
 
 Un logiciel libre
 ===
 
 WordPress est un logiciel libre, sa liberté étant garantie par la licence GPL. Chacun est libre de l’utiliser, de le modifier, et de le distribuer. Le développement est assuré par une communauté internationale. 
 
-Thèmes et Plugins
+Thèmes et Extensions
 ---
 
-Les thèmes et les plugins sont deux éléments fondamentaux pour faire fonctionner votre site WordPress.
+Les thèmes et les extensions (plugins) sont deux éléments fondamentaux pour faire fonctionner votre site WordPress.
 
 Les thèmes
 ==
@@ -130,17 +142,21 @@ Plus d’informations sur le choix des plugins :
 
 Jonathan Buttigieg: 10 conseils pour choisir un plugin WordPress, Octobre 2012, [http://goo.gl/dKNTIo](http://goo.gl/dKNTIo)
 
-WordPress.org, WordPress.com
+WordPress.org ≠ WordPress.com
 ---
 
-Il existe des différences fondamentales entre une installation « indépendante » de WordPress, et le service WordPress.com proposé par Automattic. 
+Il est important de comprendre les différences entre **WordPress.ORG** (version communautaire et indépendante de WordPress) et **WordPress.COM** (service hébergé proposé par Automattic).
+
+**WordPress.ORG** est la source de téléchargement pour WordPress, c'est là où vous trouverez la version que vous pouvez installer sur un hébergement web de votre choix. WordPress.ORG propose également un large choix de Thèmes et d'Extensions gratuites et open-source, validées par une équipe bénévole. WordPress.ORG sert aussi de portail vers les forums, la documentation pour développeurs, et le système de tickets permettant de rapporter des bugs ou proposer de nouvelles fonctionalités. Le domaine WordPress.ORG est géré par la Fondation WordPress.
 
 Particularités d’une installation indépendante (.ORG) :
 
 * Peut être hébergée partout sur le web.
 * Permet une totale liberté dans l’usage de thèmes et de plugins.
-* Vous devez payer le nom de domaine et l'hébergement.
+* N'inclut pas de nom de domaine et d'hébergement.
 * Vous devrez appliquer les mises à jour régulièrement pour garantir la sécurité de votre site.
+
+**WordPress.COM** est un service commercial (avec une version de base gratuite, et des services payants) fourni par la firme Automattic.
 
 Particularités d’une installation hébergée (.COM) :
 
@@ -154,3 +170,18 @@ Plus d’informations sur cette question :
 * Patrick Finot : *WordPress.org et WordPress.com, pourquoi deux systèmes? Comment choisir?*, décembre 2012, [http://goo.gl/QeHn7Z](http://goo.gl/QeHn7Z)
 * Fabrice Ducarme : *WordPress.com ou WordPress.org, quelle différence ?*, avril 2013, [http://goo.gl/VEjKII](http://goo.gl/VEjKII)
 
+
+Domaine, hébergement
+---
+
+## Technique
+
+WordPress est une application web reposant sur PHP et MySQL (la base de données).
+
+En publiant des contenus, vos pages, articles, commentaires, ainsi que tous vos réglages, sont enregistrés dans la base de données MySQL de votre site.
+
+D'autre part, les attachements (images, pdfs, tout type de fichier que vous ajoutez à vos articles) sont stockés dans un dossier spécifique du site (par défaut: `wp-content/uploads`).
+
+Lors d'un déménagement de site, il est indispensable d'exporter la base de données, et de préserver votre dossier `wp-content/uploads`: ces deux éléments constituent vos données personnalisées.
+
+De nombreuses solutions de backup existent, vous permettant de faire des sauvegardes de votre base de données, et des fichiers du site.

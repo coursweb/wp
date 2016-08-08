@@ -30,7 +30,7 @@ Le Codex WordPress francophone: [http://codex.wordpress.org/fr:Accueil](http://c
 La communauté de WordPress
 ---
 
-Une communauté active d’utilisateurs s’est formée autour de WordPress, donnant lieu à des rencontres (meetups) et des conférences nommées WordCamps. En 2013, 71 WordCamps se sont déroulés dans le monde, et 474 sessions ont été enregistrées et publiées sur [WordPress.tv](https://wordpress.tv/)
+Une communauté active d’utilisateurs s’est formée autour de WordPress, donnant lieu à des rencontres (*meetups*) et des conférences nommées WordCamps. Chaque année, plus de 50 WordCamps se déroulent dans le monde, et des centaines de conférences sont enregistrées et publiées sur [WordPress.tv](https://wordpress.tv/)
 
 Un WordCamp Suisse a eu lieu à Zurich en 2014 et 2015. L'édition 2016 se tiendra à Genève en fin d'année.
 
@@ -39,5 +39,5 @@ Le Meetup WordPress Genève
 
 À Genève, le groupe meetup WordPress organise des conférences et workshops gratuits, pour utilisateurs débutants et avancés, environ une fois par mois. 
 
-Inscrivez-vous sur : 
+Plus d'infos et inscriptions sur : 
 [http://www.meetup.com/geneva-wordpress/](http://www.meetup.com/geneva-wordpress/)

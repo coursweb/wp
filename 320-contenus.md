@@ -22,14 +22,14 @@ Articles et Pages
 
 Ce sont les deux principaux types de contenus de WordPress. En anglais, les articles sont nommés « Posts ».
 
-Particularités des articles :
+**Particularités des articles :**
 
-* Peuvent être classés (par Catégories et Mots-clés).
+* Peuvent être classés (par *Catégories* et *Etiquettes*).
 * La date de publication sera généralement visible.
 * Peuvent recevoir des commentaires.
 * Sont inclus dans le flux RSS du site.
 
-Particularités des pages :
+**Particularités des pages :**
 
 * Peuvent s’organiser de manière hiérarchique (page → sous-page).
 
