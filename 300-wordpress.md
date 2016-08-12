@@ -11,18 +11,18 @@ Définitions
 
 **WordPress** est un système de gestion de contenus. 
 
-Par défaut, WordPress comprend un certain nombre de fonctionnalités (p.ex: contenus par défaut, gestion des médias, gestion des utilisateurs...). On parle de fonctionnalités faisant partie du noyau de WordPress ("core functionality").
+Par défaut, WordPress comprend un certain nombre de fonctionnalités (p.ex: types de contenus, gestion des menus, gestion des médias, gestion des utilisateurs...). On parle de fonctionnalités faisant partie du noyau de WordPress ("core functionality").
 
-D'autres fonctionalités peuvent être ajoutés par des **extensions** (en anglais: plugins). Exemple: ajouter un formulaire de contact. Les extensions peuvent être ajoutées à WordPress. Elles peuvent être gratuitement partagées (souvent sur le site WordPress.org), faire l'objet d'une distribution commerciale, ou être développées sur mesure pour un besoin spécifique.
+D'autres fonctionalités peuvent être ajoutés par des **extensions** (en anglais: *plugins*). Exemple: ajouter un formulaire de contact. Un grand nombre d'extensions est disponible gratuitement (sur le site WordPress.org), d'autres font l'objet d'une distribution commerciale, ou sont développées sur mesure pour un besoin spécifique.
 
-Le **thème** définit la présentation visuelle d'un site WordPress. Il est nécessaire d'avoir un thème activé, pour qu'un site WordPress soit fonctionnel.
+Le **thème** définit la présentation visuelle d'un site WordPress. Il est nécessaire d'avoir un thème activé, pour qu'un site WordPress soit fonctionnel. Tout comme pour les plugins, les thèmes WordPress peuvent être disponibles gratuitement ou contre paiement.
 
 Mini-historique:
 ===
 
-L’année 2016 marque le 13e anniversaire de WordPress, la version 1.0 étant sortie en 2003.
+L’année 2016 marque le 13e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
 
-En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et la plate-forme d’hébergement WordPress.com. En 2011, WordPress fait tourner près de 15% des sites Internet (estimation basée sur 1 million de sites web dans le monde entier). Au cours de l'année 2015, son usage a dépassé les 25%.
+En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. En 2011, WordPress fait tourner près de 15% des sites Internet (estimation basée sur 1 million de sites web dans le monde entier). Au cours de l'année 2015, son usage a dépassé les 25%.
 
 Pour plus d’infos sur l’historique de WordPress, lire [https://github.com/WordPress/book](https://github.com/WordPress/book) (en anglais).
 
@@ -56,7 +56,7 @@ Quelques thèmes gratuits de haute qualité, créés par des contributeurs au no
 - Par Caroline Moore : http://profiles.wordpress.org/sixhours/
 - Par Konstantin Kovshenin : http://profiles.wordpress.org/kovshenin/
 
-À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme TwentySixteen.
+À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *TwentySixteen*.
 
 Choisir un thème commercial (“premium”)
 ===
@@ -66,7 +66,6 @@ Quelques boutiques de thèmes intéressantes (parmi les milliers qui existent):
 * Elma Studio – [http://www.elmastudio.de/en/themes/](http://www.elmastudio.de/en/themes/)
 * The Theme Foundry – [http://thethemefoundry.com/](http://thethemefoundry.com/)
 * Dessign – [http://www.dessign.net/](http://www.dessign.net/)
-* Graph Paper Press – [http://graphpaperpress.com/](http://graphpaperpress.com/)
 
 Il existe de nombreuses autres sources de thèmes commerciaux – voici une liste de boutiques: [http://wordpress.org/themes/commercial/](http://wordpress.org/themes/commercial/)
 
@@ -170,10 +169,6 @@ Plus d’informations sur cette question :
 * Patrick Finot : *WordPress.org et WordPress.com, pourquoi deux systèmes? Comment choisir?*, décembre 2012, [http://goo.gl/QeHn7Z](http://goo.gl/QeHn7Z)
 * Fabrice Ducarme : *WordPress.com ou WordPress.org, quelle différence ?*, avril 2013, [http://goo.gl/VEjKII](http://goo.gl/VEjKII)
 
-
-Domaine, hébergement
----
-
 ## Technique
 
 WordPress est une application web reposant sur PHP et MySQL (la base de données).
@@ -185,3 +180,9 @@ D'autre part, les attachements (images, pdfs, tout type de fichier que vous ajou
 Lors d'un déménagement de site, il est indispensable d'exporter la base de données, et de préserver votre dossier `wp-content/uploads`: ces deux éléments constituent vos données personnalisées.
 
 De nombreuses solutions de backup existent, vous permettant de faire des sauvegardes de votre base de données, et des fichiers du site.
+
+TODO: Domaines, hébergement
+
+# TODO: Notions de sécurité 
+
+gestion de mots de passe, mises à jours, backups.

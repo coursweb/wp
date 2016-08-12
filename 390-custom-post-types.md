@@ -12,9 +12,10 @@ Un moyen pratique pour créer des types de contenus (CPT) et taxonomies personna
 [http://wordpress.org/plugins/custom-post-type-ui/](http://wordpress.org/plugins/custom-post-type-ui/)
 
 Exercice: 
+===
 
 Un blogeur écrit des critiques de livres, de films et de jeux. 
 
-* Créer pour cela une taxonomie custom, "Critiques" 
+* Créer pour cela une **taxonomie** custom, "Critiques" 
 * Les critiques seront des articles WordPress, les termes de la taxonomie seront « livres », « films », « jeux ».
-* Dans une zone Sidebar, créer un widget pour cette Taxonomie. Ce widget peut contenir un menu, comprenant les pages d’archive des ”livres, films, jeux”.
+* Dans une zone Sidebar, créer un **widget** pour cette Taxonomie. Ce **widget** peut contenir un **menu**, comprenant les pages d’archive des ”livres, films, jeux”.

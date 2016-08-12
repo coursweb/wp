@@ -31,10 +31,9 @@ WordPress crée trois tailles supplémentaires de votre image uploadée (*miniat
 
 Choisir la taille insérée en fonction de vos besoins, mais surtout en fonction du thème. Généralement, la taille moyenne sera la plus appropriée.
 
-Pour reformater un grand nombre d’images (p.ex. suite à un changement de thème, le  plugin **Regenerate Thumbnails** facilite l’opération :
-[http://wordpress.org/plugins/regenerate-thumbnails/](http://wordpress.org/plugins/regenerate-thumbnails/)
+Pour reformater un grand nombre d’images (p.ex. suite à un changement de thème, le  plugin **[Regenerate Thumbnails](http://wordpress.org/plugins/regenerate-thumbnails/)** facilite l’opération.
 
-Attention: Si vous mettez en ligne des images de très grand format (5000 x 4000 pixels et au-dela), il se peut que votre serveur ne parvienne pas à calculer les versions miniatures. Il affichera dans ce cas la version orginale, dont le poids va considérablement ralentir le chargement de votre site. Veillez donc à mettre en ligne des images de taille raisonnable. Le format vidéo HD actuel – 1920 pixels de large – est une limite supérieure appropriée pour les écrans actuels.
+Attention: Si vous mettez en ligne des images de très grand format (5000 x 4000 pixels et au-delà), il se peut que votre serveur ne parvienne pas à calculer les versions miniatures. Il affichera dans ce cas la version originale, dont le poids va considérablement ralentir le chargement de votre site. Veillez donc à mettre en ligne des images de taille raisonnable. Le format vidéo HD actuel – 1920 pixels de large – est une limite supérieure appropriée pour les écrans actuels.
 
 Définir une image « à la une »
 ===
@@ -54,7 +53,7 @@ Il est possible d'insérer une suite d'images, puis de rédiger l'article entre 
 
 Voir aussi : 
 
-* Patrick Finot, [La gestion des images dans WordPress](http://www.informatique-enseignant.com/gestion-images-wordpress/), septembre 2013 
+* Patrick Finot, *[La gestion des images dans WordPress](http://www.informatique-enseignant.com/gestion-images-wordpress/)*, septembre 2013 
 
 TODO: 
 

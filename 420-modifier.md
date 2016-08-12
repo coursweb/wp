@@ -67,11 +67,11 @@ Trouver le code à modifier
 
 Maintenant que nous avons la technique en place, nous devons trouver quel est le code correspondant à l'élément que nous souhaitons masquer.
 
-Supposons que nous utilisons le thème Cubic, un très beau thème [développé par Thomas Guillot](https://thomasguillot.com/2015/01/16/new-theme-cubic/) pour Automattic, dont voici [la page de démonstration](https://cubicdemo.wordpress.com/).
+Supposons que nous utilisons le thème Cubic, un thème développé par [Thomas Guillot](https://thomasguillot.com/2015/01/16/new-theme-cubic/) pour Automattic, dont voici [la page de démonstration](https://cubicdemo.wordpress.com/).
 
 ![Le thème Cubic](/cours-web/cours-wp/img/cubic-homepage.jpg)
 
-Supposons que la présence des dates de publication nous déplait, et que nous souhaitons les masquer.
+Supposons que la présence des dates de publication au-dessus des titres nous déplait, et que nous souhaitons les masquer.
 
 Nous allons utiliser l'inspecteur de notre navigateur, pour détecter les *identifiants* ou *classes* à utiliser pour masquer la date.
 
@@ -83,7 +83,7 @@ Avec l'aide de l'inspecteur, vous pouvez parcourir le code, et vérifier comment
 
 ![](/cours-web/cours-wp/img/inspection-code.png)
 
-Ici, nous pouvons voir que l'élément `<header class="entry-header">`contient à la fois la date et le titre. L'élément `<div class="entry-meta">` contient la date uniquement. 
+Ici, nous voyons que l'élément `<header class="entry-header">`contient à la fois la date et le titre. L'élément `<div class="entry-meta">` contient la date uniquement. 
 
 C'est donc cet élément que nous souhaitons masquer. Nous allons le cibler en utilisant sa classe, `.entry-meta`.
 
@@ -123,14 +123,14 @@ Ajoutons ce code à notre CSS custom, et obervons le résultat:
 
 ![](/cours-web/cours-wp/img/dates-masquees.jpg)
 
-Un détail: nous aurions pu ajouter cette marge sur un autre élément, comme `.entry-header`, ou `.entry-title` - cela donnerait le même résultat visuellement. Pourquoi avoir choisi de le mettre sur `.entry-title a`? 
+Un détail: nous aurions pu ajouter cette marge sur un autre élément, comme `.entry-header`, ou `.entry-title` — cela donnerait le même résultat visuellement. Pourquoi avoir choisi de le mettre sur `.entry-title a`? 
 
 C'est simple: étant donné que le `<a>` est l'élément réagissant au clic, en attribuant la marge à cet élément, nous *agrandissons* la zone "sensible" - nous améliorons ainsi l'usabilité, p. ex. pour un usager de tablette tactile.
 
 Un deuxième exemple...
 ===
 
-Après ce premier succès, intéressons-nous aux pages individuelles des articles. Nous pouvons voir que chaque article comporte une section "Posté dans... Tagué..." qui peut nous paraître superflue.
+Après ce premier succès, intéressons-nous aux pages individuelles des articles. Nous pouvons voir que chaque article comporte une section "Posté dans... Tagué..." qui peut paraître superflue.
 
 ![](/cours-web/cours-wp/img/entry-footer.jpg)
 
@@ -140,7 +140,7 @@ Ici encore, l'inspecteur nous révèle le nom de cette zone:
 <footer class="entry-footer">
 ```
 
-Essayons le code CSS custom suivant, pour voir:
+Essayons le code CSS custom suivant:
 
 ```css
 .entry-footer {
@@ -148,7 +148,7 @@ Essayons le code CSS custom suivant, pour voir:
 }
 ```
 
-Le résultat semble probant, toutes les métadonnées sont désormais masquées. Le seul point dérangeant est que, une fois de plus, nous avons une marge qui est trop étroite (24px pour la marge du bas, alors que celle du haut est de 72px).
+Cela fonctionne, ces métadonnées sont désormais masquées. Le seul point dérangeant est la marge qui devient trop étroite (24px pour la marge du bas, alors que celle du haut est de 72px).
 
 ![](/cours-web/cours-wp/img/inspect-single.jpg)
 
@@ -162,7 +162,7 @@ On peut voir dans le code que les 72px sont définis de la manière suivante:
 }
 ```
 
-Il s'agit donc d'une Media Query, produisant cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus.
+Il s'agit donc d'une Media Query, produisant cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus (voir: .
 
 Nous pouvons reprendre ce code, et modifier la valeur: comme il y a déjà une marge de 24px, nous allons **ajouter 48px** pour que le total soit de 72px.
 
