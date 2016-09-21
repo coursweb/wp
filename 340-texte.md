@@ -66,7 +66,8 @@ Depuis janvier 2014, cette fonctionnalité est incluse dans le plugin *Jetpack* 
 
 Plus d’infos :
 
-* [http://en.blog.wordpress.com/2013/11/19/markdown/](http://en.blog.wordpress.com/2013/11/19/markdown/)
-* [http://en.support.wordpress.com/markdown-quick-reference/](http://en.support.wordpress.com/markdown-quick-reference/)
-* [http://daringfireball.net/projects/markdown/](http://daringfireball.net/projects/markdown/)
+* [Cours MarkDown sur OpenClassrooms](https://openclassrooms.com/courses/redigez-en-markdown) (français)
+* [http://en.blog.wordpress.com/2013/11/19/markdown/](http://en.blog.wordpress.com/2013/11/19/markdown/) (anglais)
+* [MarkDown Quick Reference](http://en.support.wordpress.com/markdown-quick-reference/) (anglais)
+* [Documentation de John Gruber](http://daringfireball.net/projects/markdown/) (anglais)
 
