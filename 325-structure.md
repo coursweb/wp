@@ -19,3 +19,4 @@ Effectivement, WordPress va faire beaucoup de choses à votre place, et un grand
 
 Prenons un exemple, et essayons de clarifier la structure d'un site.
 
+TODO !!
