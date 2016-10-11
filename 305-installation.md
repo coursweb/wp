@@ -15,11 +15,11 @@ Le premier cas sera celui d'un domaine - **example.com** - que vous aurez réser
 
 Dans l'interface o2switch, vous devez vous rendre dans la partie concernant la gestion des noms de domaine ("Domaines supplémentaires"), pour y ajouter le vôtre.
 
-![title](/cours-web/cours-wp/img/cpanel-domaines.png)
+![title](/cours-wp/img/cpanel-domaines.png)
 
 Dans le deuxième cas, si vous optez pour un sous-domaine - du type **sousdomaine**.example.com - vous devez vous rendre sur l'écran concernant les "Sous-domaines". Vous pouvez ajouter un nouveau sous-domaine, en chosissant dans la liste le domaine parent.
 
-![title](/cours-web/cours-wp/img/cpanel-sous-domaines-config-1-cpanel.png)
+![title](/cours-wp/img/cpanel-sous-domaines-config-1-cpanel.png)
 
 2) Choix de la structure des dossiers
 ===
@@ -46,7 +46,7 @@ Mais puisque notre hébergeur propose une interface (Softaculous) qui automatise
 
 Rendez-vous dans la partie permettant d'installer des applications:
 
-![title](/cours-web/cours-wp/img/cpanel-apps.png)
+![title](/cours-wp/img/cpanel-apps.png)
 
 Cliquez l'icône de WordPress, puis cliquez "Installation" (ou *Install Now*).
 
