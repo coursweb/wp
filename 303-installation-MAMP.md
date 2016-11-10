@@ -8,7 +8,7 @@ Ce document indique comment installer un site WordPress localement (sur votre or
 
 Un tutoriel en français: 
 
-http://www.varcap-informatique.net/tutoriels/comment-installer-wordpress-4-local-mamp/
+[http://www.varcap-informatique.net/tutoriels/comment-installer-wordpress-4-local-mamp/](http://www.varcap-informatique.net/tutoriels/comment-installer-wordpress-4-local-mamp/)
 
 Attention, ce tutoriel n'est pas entièrement complet!
 Avant de procéder à l'installation de WordPress, il est nécessaire de créer la base de données MySQL:
@@ -25,6 +25,6 @@ Autre ajout à faire au tutoriel : il est recommandé de modifier l'emplacement 
 
 Un tutoriel complet en anglais:
 
-https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/
+[https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/](https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/)
 
 ***
