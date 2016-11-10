@@ -65,7 +65,7 @@ Quelques boutiques de thèmes intéressantes (parmi les milliers qui existent):
 
 * Elma Studio – [http://www.elmastudio.de/en/themes/](http://www.elmastudio.de/en/themes/)
 * The Theme Foundry – [http://thethemefoundry.com/](http://thethemefoundry.com/)
-* Dessign – [http://www.dessign.net/](http://www.dessign.net/)
+* Array Themes – [https://arraythemes.com/](https://arraythemes.com/)
 
 Il existe de nombreuses autres sources de thèmes commerciaux – voici une liste de boutiques: [http://wordpress.org/themes/commercial/](http://wordpress.org/themes/commercial/)
 

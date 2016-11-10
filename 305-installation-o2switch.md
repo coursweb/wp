@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Installation
-permalink: /wp/installation
+title: Installation o2switch
+permalink: /wp/installation-o2switch
 ---
 
 Ce document indique comment installer un site WordPress chez l'hébergeur [o2switch](http://www.o2switch.fr/). Chez d'autres hébergeurs, la procédure sera semblable. Nous utilisons l'installation "one-click" proposée par l'hébergeur.
