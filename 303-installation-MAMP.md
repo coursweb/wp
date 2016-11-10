@@ -12,7 +12,8 @@ Ce document indique comment installer un site WordPress localement (sur votre or
 - Cliquer sur l'onglet "Web Server".
 - Cliquer sur l'icone du dossier (à côté de Document Root) et naviguez vers votre emplacement de travail, pour définir le dossier racine qui qui sera utilisé par MAMP. Confirmer.
 
-### Base de données MySQL
+Base de données MySQL
+===
 
 Créer la base de données MySQL qui sera utilisée par WordPress:
 
@@ -24,13 +25,14 @@ Créer la base de données MySQL qui sera utilisée par WordPress:
 - User: root
 - Mot de passe: root
 - Ouvrir PhpMyAdmin, en cliquant sur l'un des liens phpMyAdmin
-- Créer une base de données (cliquer sur "Nouvelle base de données" dans le menu de gauche)
+- Créer une base de données - cliquer sur "Nouvelle base de données" ou "New" dans le menu de gauche)
 - Lui donner un nom, p.ex. `wordpress`
-- Cliquer sur "créer".
+- Cliquer sur "créer" (ou "Create").
 - La nouvelle base de données apparaitra dans le menu de gauche (on verra le message "Aucune table n'a été trouvée dans cette base de données"... c'est normal).
-- Vous pouvez fermer cette fenêtre et passer à l'opération suivante:
+- Vous pouvez fermer cette fenêtre et passer à l'étape suivante:
 
-### Obtenir WordPress: 
+Obtenir WordPress: 
+===
 
 - Aller à l'adresse [https://fr.wordpress.org/](https://fr.wordpress.org/)
 - Téléchargez la version actuelle de WordPress
