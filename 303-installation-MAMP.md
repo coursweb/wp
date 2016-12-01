@@ -48,6 +48,18 @@ Obtenir WordPress:
 - Le préfixe des tables: on peut laisser
 - Terminez l'installation.
 
+Problèmes et réinstallation: 
+===
+
+Si vous devez réinstaller MAMP, faites très attention, car certains fichiers importants se trouvent dans le dossier de l'application, et risquent d'être perdus lors d'une réinstallation de MAMP.
+
+Il s'agit notamment :
+
+* Du dossier "db" qui contient vos bases de données... donc tous les contenus et configurations de WordPress.
+* Du dossier "htdocs", qui contient vos fichiers, si vous ne les avez pas défini ailleurs.
+
+Si vous perdez ces données en réinstallant MAMP, vérifiez votre corbeille: il se peut qu'une copie des anciennes données s'y trouve. Vous pouvez dans ce cas récupérer les dossiers "db" et "htdocs", et les placer à l'intérieur du dossier /Applications/MAMP pour retrouver vos données et réglages.
+
 Un tutoriel complet en anglais:
 
 [https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/](https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/)
