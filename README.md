@@ -1,4 +1,4 @@
-# cours-css
+# cours-wp
 
 Support de cours programmation web
 
