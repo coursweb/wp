@@ -67,6 +67,9 @@ Quelques boutiques de thèmes intéressantes (parmi les milliers qui existent):
 * The Theme Foundry – [http://thethemefoundry.com/](http://thethemefoundry.com/)
 * Array Themes – [https://arraythemes.com/](https://arraythemes.com/)
 
+Pour finir, voici une jolie collection de cinq thèmes par Hugo Baeta:
+http://hugobaeta.com/portfolio/thefivethemes/
+
 Il existe de nombreuses autres sources de thèmes commerciaux – voici une liste de boutiques: [http://wordpress.org/themes/commercial/](http://wordpress.org/themes/commercial/)
 
 Lire aussi à ce sujet :
