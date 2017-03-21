@@ -34,33 +34,13 @@ Voilà comment nous allons procéder, en trois étapes:
 2. Identifier les éléments de code que nous souhaitons masquer.
 3. Ecrire le CSS nécessaire pour masquer ces éléments.
 
-Pour commencer, nous devons trouver un moyen de créer du CSS personnalisé. Pour cela, diverses possibilités:
+Pour commencer, nous devons trouver un moyen de créer du CSS personnalisé. Depuis la version 4.7 (fin 2016), il est possible de faire cela avec l'outil *Personnaliser*. Il n'est donc plus nécessaire de recourir à des extensions comme Jetpack.
 
-<h4>Avec Jetpack</h4>
+Vous trouverez cette option sous *Apparence > Personnaliser*, dans la section nommée *CSS additionnel*. Tous les styles que vous ajoutez ici seront chargés dans l'en-tête de votre site. C'est donc un bon moyen de surchager les styles de votre thème.
 
-Le "CSS Personnalisé" est l'une des nombreuses fonctionnalités de l'extension **Jetpack**. Donc, si vous utilisez déjà cette extension, vous n'avez plus qu'à activer cette fonctionalité.
+![Ajout de CSS additionnel](/cours-wp/img/wp-customizer-css-fr.png)
 
-![Activation du CSS Personnalisé](/cours-wp/img/jetpack-css.png)
-
-Une fois cette option activée, vous allez trouver une nouvelle entrée dans le menu *Apparence : Modifier le CSS*.
-
-![](/cours-wp/img/jetpack-css-menu.png)
-
-Cela vous donnera accès à un champ nommé *Editeur de Feuille de Style CSS*. Tous les styles que vous ajoutez ici seront chargés dans l'en-tête de votre site. C'est donc un bon moyen de surchager les styles de votre thème.
-
-![](/cours-wp/img/jetpack-css-editor.png)
-
-<h4>Sans Jetpack</h4>
-
-Si vous n'utilisez pas l'extension Jetpack, vous pouvez opter pour une solution plus simple: **[Simple Custom CSS](https://wordpress.org/plugins/simple-custom-css/)** est une extension qui, comme son nom l'indique, vous permet d'ajouter simplement du CSS "custom".
-
-Une fois l'extension installée et activée, vous allez trouver une nouvelle entrée dans le menu *Apparence : Custom CSS*.
-
-![](/cours-wp/img/simple-custom-css.png)
-
-Comme pour Jetpack, cette extension vous propose un champ permettant d'entrer votre CSS personnalisé:
-
-![](/cours-wp/img/simple-custom-css-field.png)
+Votre CSS personnalisé sera sauvegardé séparément pour chacun de vos thèmes.
 
 Trouver le code à modifier
 ===

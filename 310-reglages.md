@@ -54,7 +54,7 @@ Attention : l’effet de ce réglage n’est pas rétroactif. Les articles déj
 
 Configurer les formats des versions *miniatures*, *moyennes* et *grandes* de vos images. Ce réglage se trouve sous *Réglages → Médias*. Les dimensions idéales vont varier en fonction du thème que vous utilisez.
 
-De manière générale, les valeurs proposées (150 px pour les miniatures, 300 pour les moyennes, 1024 pour les grandes), qui ont été définies en 2008, vont produire des images trop petites selon les standards de 2016. Il est donc indiqué d'augmenter ces valeurs lors de la configuration du site. 
+De manière générale, les valeurs proposées (150 px pour les miniatures, 300 pour les moyennes, 1024 pour les grandes), qui ont été définies en 2008, vont produire des images trop petites selon les standards de 2017. Il est donc indiqué d'augmenter ces valeurs lors de la configuration du site. 
 
 Voici un exemple de réglage plus approprié:
 
@@ -62,4 +62,4 @@ Voici un exemple de réglage plus approprié:
 * **Moyennes:** 1000 x 1000 px
 * **Grandes:** 2000 x 2000 px
 
-**Attention:** en cas de modification de ces valeurs, les nouveaux réglages seront pris en compte pour les futurs ajouts uniquement. Ils *ne vont pas s'appliquer* aux images déjà existantes. Pour les images précédemment importées, il faudra "recalculer les miniatures", ce que l'on peut faire au moyen d'une extension (p.ex. *Regenerate Thumbnails*).
+**Attention:** en cas de modification de ces valeurs, les nouveaux réglages seront pris en compte pour les futurs ajouts uniquement. Ils *ne vont pas s'appliquer* aux images déjà existantes. Pour les images précédemment importées, il faudra "recalculer les miniatures", ce que l'on peut faire au moyen d'une extension (p.ex. *[Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)*).

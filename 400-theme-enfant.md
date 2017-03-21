@@ -11,4 +11,6 @@ Exemple: lien Github vers un theme-enfant de TwentySixteen, qui remplace les fon
 Voici un bon tutoriel pour commencer:     
 [http://wpformation.com/theme-enfant-wordpress/](http://wpformation.com/theme-enfant-wordpress/)
 
+Et voici la documentation du Codex WordPress: [https://codex.wordpress.org/fr:Thèmes_Enfant](https://codex.wordpress.org/fr:Th%C3%A8mes_Enfant)
+
 Si vous êtes paresseux, ce plugin peut vous aider à créer un thème enfant en un click: [https://wordpress.org/plugins/child-themify/](https://wordpress.org/plugins/child-themify/)
