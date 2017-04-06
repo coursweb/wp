@@ -24,7 +24,7 @@ Créer la base de données MySQL qui sera utilisée par WordPress:
 - Port: 8889
 - User: root
 - Mot de passe: root
-- Ouvrir PhpMyAdmin, en cliquant sur l'un des liens phpMyAdmin
+- Ouvrir PhpMyAdmin, en cliquant sur l'un des liens phpMyAdmin ou entrer "http://localhost:8888/phpMyAdmin/"
 - Créer une base de données - cliquer sur "Nouvelle base de données" ou "New" dans le menu de gauche)
 - Lui donner un nom, p.ex. `wordpress`
 - Cliquer sur "créer" (ou "Create").
