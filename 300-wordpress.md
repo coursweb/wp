@@ -50,11 +50,12 @@ On peut utiliser un thème gratuit, acquérir un thème payant, ou développer u
 Choisir un thème gratuit
 ===
 
-Quelques thèmes gratuits de haute qualité, créés par des contributeurs au noyau de WordPress:
+Quelques thèmes gratuits de haute qualité:
 
-- Par l’équipe Automattic : http://profiles.wordpress.org/automattic/
-- Par Caroline Moore : http://profiles.wordpress.org/sixhours/
-- Par Konstantin Kovshenin : http://profiles.wordpress.org/kovshenin/
+- Les thèmes l’équipe Automattic : [http://profiles.wordpress.org/automattic/](http://profiles.wordpress.org/automattic/)
+- Le blog ThemeShaper présente des thèmes récents: [https://themeshaper.com/](https://themeshaper.com/) 
+- Une collection de thèmes par Hugo Baeta: [http://hugobaeta.com/portfolio/thefivethemes/](http://hugobaeta.com/portfolio/thefivethemes/)
+- Les thèmes d'Anders Norén: [http://www.andersnoren.se/teman/](http://www.andersnoren.se/teman/)
 
 À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *TwentySixteen*.
 
@@ -67,8 +68,7 @@ Quelques boutiques de thèmes intéressantes (parmi les milliers qui existent):
 * The Theme Foundry – [http://thethemefoundry.com/](http://thethemefoundry.com/)
 * Array Themes – [https://arraythemes.com/](https://arraythemes.com/)
 
-Pour finir, voici une jolie collection de cinq thèmes par Hugo Baeta:
-http://hugobaeta.com/portfolio/thefivethemes/
+
 
 Il existe de nombreuses autres sources de thèmes commerciaux – voici une liste de boutiques: [http://wordpress.org/themes/commercial/](http://wordpress.org/themes/commercial/)
 
