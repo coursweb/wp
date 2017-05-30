@@ -14,3 +14,5 @@ Voici un bon tutoriel pour commencer:
 Et voici la documentation du Codex WordPress: [https://codex.wordpress.org/fr:Thèmes_Enfant](https://codex.wordpress.org/fr:Th%C3%A8mes_Enfant)
 
 Si vous êtes paresseux, ce plugin peut vous aider à créer un thème enfant en un click: [https://wordpress.org/plugins/child-themify/](https://wordpress.org/plugins/child-themify/)
+
+Site très complet qui explique l'installation d'un thème enfant lorsque notre site est hébergé sur Infomaniak: https://widemann.net/wp-fr/wordpress-theme-enfant/
