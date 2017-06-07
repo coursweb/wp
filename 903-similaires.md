@@ -5,6 +5,7 @@ permalink: /wp/similaires/
 ---
 
 **Voici quelques logiciels similaires à Wordpress:**
+---
 
 [Wix](https://fr.wix.com/)
 
@@ -35,7 +36,6 @@ Très axé sur l'esthétisme et la "responsivité"
 Fonctions très riches pour les blogs
 
 **À buts commerciaux:**
----
 
 * [Bigcartel](https://www.bigcartel.com/)
 * [Shopify](https://www.shopify.com/)
