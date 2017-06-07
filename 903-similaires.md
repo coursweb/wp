@@ -34,7 +34,7 @@ Très axé sur l'esthétisme et la "responsivité"
 5 formules, prix allant de 0 à 42 euros. (obligation de payer pour avoir un vrai nom de domaine.)
 Fonctions très riches pour les blogs
 
-*À buts commerciaux:*
+**À buts commerciaux:**
 ---
 
 * [https://www.bigcartel.com/](Bigcartel)
