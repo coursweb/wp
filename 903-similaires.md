@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Logiciels Similaires
-permalink: /wp/similaires
+permalink: /wp/similaires/
 ---
 
 **Voici quelques logiciels similaires à Wordpress:**
