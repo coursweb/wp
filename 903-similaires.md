@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Logiciels Similaires
+title: Logiciels similaires
 permalink: /wp/similaires/
 ---
 
