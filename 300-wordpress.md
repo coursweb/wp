@@ -189,3 +189,7 @@ TODO: Domaines, hébergement
 # TODO: Notions de sécurité 
 
 gestion de mots de passe, mises à jours, backups.
+
+Chaque jour, la liste des vulnérabilités détectées dans les thèmes et les plugins WordPress ne cesse de s’allonger. Les problèmes de sécurité Web prennent une telle ampleur que Google alerte les propriétaires si leurs sites Web sont piratés. Le moteur de recherche prend les choses très au sérieux, allant jusqu’à souligner que votre version de WordPress doit être mise à jour pour réduire les risques de piratage.
+
+* 15 rappels de sécurité Wordpress * https://wpformation.com/11-rappels-securite-wordpress/
