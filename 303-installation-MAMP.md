@@ -39,7 +39,7 @@ Obtenir WordPress:
 - Dézippez (si ce n'est pas fait automatiquement), et déplacez le dossier "wordpress" dans le dossier "Fichiers MAMP" que vous avez créé précédemment.
 - Retournez dans le panneau MAMP, cliquez sur "Open WebStart Page".
 - Arrivé sur la WebStartPage, cliquez dans le menu de navigation sur "Mon Site Web" (ou "MAMP.
-- Vous arriverez sur la page [localhost:8888](http://localhost:8888) ou [localhost](localhost) , et devriez voir le nom du dossier wordpress.
+- Vous arriverez sur la page [localhost:8888](http://localhost:8888) ou [localhost](http://localhost), et devriez voir le nom du dossier wordpress.
 - Cliquez sur ce lien, et vous arriverez sur la page qui lance l'installation de WordPress.
 - Adresse de la base de données: correspond au champ Hôte (localhost)
 - Nom de la base de données: le nom que vous avez indiqué en créant la base de données ("wordpress").
