@@ -27,7 +27,9 @@ Les contenus sont rédigés en syntaxe Markdown.
 Les auteurs et contributeurs sont:
 
 * [Manuel Schmalstieg](https://github.com/ms-studio) – artiste, développeur et enseignant.
-* [fdelaloye](https://github.com/fdelaloye) - étudiante à l'Eracom, Lausanne
-* [oboschung](https://github.com/oboschung) - étudiante à l'Eracom, Lausanne
-* [anahe16](https://github.com/anahe16) - étudiante à l'Eracom, Lausanne
-* [Nathanmeyer1](https://github.com/Nathanmeyer1) - étudiant à l'Eracom, Lausanne
+* [Fiona Delaloye](https://github.com/fdelaloye) - étudiante à l'Eracom, Lausanne
+* [Océane Boschung](https://github.com/oboschung) - étudiante à l'Eracom, Lausanne
+* [Anahé Marchand](https://github.com/anahe16) - étudiante à l'Eracom, Lausanne
+* [Nathan Meyer](https://github.com/Nathanmeyer1) - étudiant à l'Eracom, Lausanne
+
+
