@@ -142,7 +142,7 @@ On peut voir dans le code que les 72px sont définis de la manière suivante:
 }
 ```
 
-Il s'agit donc d'une Media Query, produisant cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus (voir: .
+Il s'agit donc d'une Media Query, produisant cette marge supérieure de 72px si la taille de la fenêtre est de 768px ou plus (voir: [Media Queries](http://cours-web.ch/css/responsive) dans le chapitre CSS).
 
 Nous pouvons reprendre ce code, et modifier la valeur: comme il y a déjà une marge de 24px, nous allons **ajouter 48px** pour que le total soit de 72px.
 
@@ -156,7 +156,7 @@ Voilà le code que nous ajoutons à notre custom CSS:
 }
 ```
 
-Résultat: nous avons maintenant des marges inférieures et suppérieures parfaitement ajustées.
+Résultat: nous avons maintenant des marges inférieures et supérieures parfaitement ajustées.
 
 Conclusion
 ===
