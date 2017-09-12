@@ -6,7 +6,7 @@ permalink: /wp/troubleshooting
 
 Comment résoudres des problèmes...
 
-Identifiant de WordPress oublié:
+## Identifiant de WordPress oublié:
 
 * Avec [MAMP](installation-mamp), aller dans PhpMyAdmin
 * Aller dans la base de données utilisée par WordPress
