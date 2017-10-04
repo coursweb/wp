@@ -18,9 +18,9 @@ Le code de ce plugin est le suivant:
 add_filter( 'jetpack_development_mode', '__return_true' );
 ```
 
-C'est littéralement une seule ligne de code! Cette ligne à pour effet d'intervenir sur le chargement de l'extension Jetpack, et de modifier son fonctionnement. 
+C'est littéralement une seule ligne de code! Cette ligne a pour effet d'intervenir sur le chargement de l'extension Jetpack, et de modifier son fonctionnement. 
 
-Pour que ce code soit considéré par WordPress comme une extension valide, il faut que le fichier PHP comprenne un en-tête, permettant de l'identifier comme tel. Voici donc le code complet du plugin:
+Pour que ce code soit considéré par WordPress comme une extension valide, il faut que le fichier PHP comprenne un en-tête, permettant de l'identifier comme tel. Voici le code complet du plugin:
 
 ```
 <?php
@@ -48,7 +48,7 @@ Il y a trois manières d'installer et d'activer une extension dans WordPress:
 
 Voici le détail de ces trois opérations:
 
-### 1 : Installer depuis WordPress.org
+### 1 : Installer depuis WordPress.org
 
 ![Ajouter une extension](/cours-wp/img/ajouter-extension.png)
 
@@ -81,14 +81,14 @@ Une fois que vous avez le ZIP, suivez cette procédure:
 
 Ça y est, vous avez activé votre extension!
 
-### 3 : Uploader via un client FTP
+### 3 : Uploader via un client FTP
 
 Dans la mesure où vous connaissez les codes d'accès FTP à votre espace web, vous pouvez [utiliser un client FTP](https://cours-web.ch/outils/ftp/) pour mettre votre extension en ligne.
 
 * Ouvrez une connexion FTP.
 * Naviguez dans les fichiers de votre site WordPress, dans le dossier "/wp-content/plugins".
-* Vous verrez ici les dossiers des extensions installées.
-* Vous pouvez ajouter ici le dossier de votre extension - attention, pas le ZIP, mais le dossier décompressé!
+* Vous verrez les dossiers des extensions installées.
+* Vous pouvez ajouter le dossier de votre extension - attention, pas le ZIP, mais le dossier décompressé!
 
 ![Exemple de dossier "plugins"](/cours-wp/img/dossier-plugins-ftp.png)
 
@@ -98,6 +98,8 @@ Voilà, vous connaissez maintenant trois manières d'installer une extension Wor
 
 En bonus, voici un autre exemple d'extension simple et facile à modifier: [WP Eracom Colorize](https://github.com/eracom-gr351/wp-eracom-colorize/). Il s'agit d'une extension qui a pour but de modifier les couleurs de votre site en fonction des saisons, ou d'une date particulière. 
 
-**Bon à savoir:** étant donné que WordPress propose automatiquement des mises à jour pour tous les thèmes ou extensions chargés depuis WordPress.org, il est important d'éviter des **conflits de nom** avec des thèmes ou extensions publiés sur ce site. La manière dont WordPress les identifie consiste à se baser sur le **nom du dossier**. Si vous créez votre propre thème ou extension, veillez donc à ce que nom de dossier soit suffisamment "unique" pour ne pas risquer un conflit (ce qui pourrait conduire votre extension à être remplacée par une autre lors d'une mise à jour).
+## Bien nommer vos extensions
 
-Dans l'exemple ci-dessus, on aurait pu nommer l'extension "wp-colorize", mais les chances sont grandes qu'un plugin avec un nom similaire existe déjà, ou voie le jour dans le futur. Il est sage de rendre son identifiant unique, en le nommant p.ex. "wp-eracom-colorize".
+**Bon à savoir:** étant donné que WordPress propose automatiquement des mises à jour pour tous les thèmes ou extensions chargés depuis WordPress.org, il est important d'éviter des **conflits de nom** avec des thèmes ou extensions publiés sur ce site. La manière dont WordPress les identifie consiste à se baser sur le **nom du dossier**. Si vous créez votre propre thème ou extension, veillez donc à ce que le nom de dossier soit suffisamment "unique" pour ne pas risquer un conflit (ce qui pourrait conduire votre extension à être remplacée par une autre lors d'une mise à jour).
+
+Dans l'exemple ci-dessus, on aurait pu nommer l'extension "wp-colorize"... mais les chances sont grandes qu'un plugin avec un nom similaire existe déjà, ou voie le jour dans le futur. Il est plus prudent de lui donner un identifiant unique, en le nommant p.ex. "wp-eracom-colorize".
