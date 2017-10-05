@@ -100,6 +100,12 @@ En bonus, voici un autre exemple d'extension simple et facile à modifier: [WP E
 
 ## Bien nommer vos extensions
 
-**Bon à savoir:** étant donné que WordPress propose automatiquement des mises à jour pour tous les thèmes ou extensions chargés depuis WordPress.org, il est important d'éviter des **conflits de nom** avec des thèmes ou extensions publiés sur ce site. La manière dont WordPress les identifie consiste à se baser sur le **nom du dossier**. Si vous créez votre propre thème ou extension, veillez donc à ce que le nom de dossier soit suffisamment "unique" pour ne pas risquer un conflit (ce qui pourrait conduire votre extension à être remplacée par une autre lors d'une mise à jour).
+**Bon à savoir:** étant donné que WordPress propose automatiquement des mises à jour pour tous les thèmes ou extensions chargés depuis WordPress.org, il est important d'éviter des **conflits de nom** avec des thèmes ou extensions publiés sur ce site. La manière dont WordPress les identifie prend en compte différents facteurs, dont le **nom du dossier**, le "Plugin Name" indiqué dans l'en-tête, et le descriptif. Si vous créez votre propre thème ou extension, veillez donc à ce que le "Plugin Name" et le nom de dossier soient suffisamment "uniques" pour ne pas risquer un conflit (ce qui pourrait conduire votre extension à être remplacée par une autre lors d'une mise à jour).
 
-Dans l'exemple ci-dessus, on aurait pu nommer l'extension "wp-colorize"... mais les chances sont grandes qu'un plugin avec un nom similaire existe déjà, ou voie le jour dans le futur. Il est plus prudent de lui donner un identifiant unique, en le nommant p.ex. "wp-eracom-colorize".
+Dans l'exemple ci-dessus, on aurait pu nommer l'extension "wp-colorize"... mais les chances sont grandes qu'une extension avec un nom similaire existe déjà, ou voie le jour dans le futur. Il est plus prudent de lui donner un identifiant plus personnalisé, en le nommant p.ex. "wp-eracom-colorize".
+
+Plus d'infos à ce sujet:
+
+* [Un ticket datant de 2015](https://core.trac.wordpress.org/ticket/32101)
+* [Une discussion](https://wordpress.stackexchange.com/questions/120462/how-to-avoid-plugin-name-conflicts-from-the-upgrade-notifier) sur StackExchange
+* [Une autre discussion](https://wordpress.stackexchange.com/questions/168382/avoiding-plugin-name-collisions-with-wp-updater) sur StackExchange
