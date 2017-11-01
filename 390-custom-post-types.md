@@ -22,7 +22,7 @@ Un blogeur écrit des critiques de livres, de films et de jeux.
 
 ## Déclaration d'un Custom Post Type
 
-Pour déclarer un nouveau Custom Post Type, il faut utiliser la fonction `[register_post_type](https://codex.wordpress.org/Function_Reference/register_post_type)`, dans un thème ou un plugin.
+Pour déclarer un nouveau Custom Post Type, il faut utiliser la fonction [`register_post_type`](https://codex.wordpress.org/Function_Reference/register_post_type), dans un thème ou un plugin.
 
 Si vous n'êtes pas à l'aise avec le code PHP, vous pouvez utiliser l'extension [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/).
 
@@ -47,9 +47,9 @@ Une autre question qui se poste: faut-il utiliser le **singulier** ou le **pluri
 La pratique habituelle est d'utiliser le singulier. Cela donne des URL plus courtes, et c'est plus cohérent: en effet, l'URL "projet/nom-du-projet" affichera **un** projet à la fois.
 
 
-## L'option Portfolios avec Jetpack
+## L'option Portfolios avec Jetpack
 
-L'extension Jetpack offre une option *Portfolios*, qui permet entre autres de présenter des projets sous forme de galerie d'images. Cette option n’est toutefois compatible qu’avec certains thèmes Wordpress.
+L'extension **Jetpack** offre une option *Portfolios*, qui permet entre autres de présenter des projets sous forme de galerie d'images. Cette option n’est toutefois compatible qu’avec certains thèmes Wordpress.
 
 * Une fois l'extension Jetpack installée, celle-ci apparaît dans votre tableau de bord Wordpress. Cliquez dessus, puis allez dans *Réglages*.
 * Jetpack vous propose ici diverses fonctionnalités pour votre site internet. Cliquez sur l'onglet *Writing*, puis scrollez jusqu'à la catégorie *Types de contenus personnalisés*. Activez la deuxième option: *Portfolios*.
