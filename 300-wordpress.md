@@ -20,7 +20,7 @@ Le **thème** définit la présentation visuelle d'un site WordPress. Il est né
 Mini-historique:
 ===
 
-L’année 2016 marque le 13e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
+L’année 2017 marque le 14e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
 
 En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. En 2011, WordPress fait tourner près de 15% des sites Internet (estimation basée sur 1 million de sites web dans le monde entier). Au cours de l'année 2015, son usage a dépassé les 25%.
 
@@ -57,17 +57,17 @@ Quelques thèmes gratuits de haute qualité:
 - Une collection de thèmes par Hugo Baeta: [http://hugobaeta.com/portfolio/thefivethemes/](http://hugobaeta.com/portfolio/thefivethemes/)
 - Les thèmes d'Anders Norén: [http://www.andersnoren.se/teman/](http://www.andersnoren.se/teman/)
 
-À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *TwentySixteen*.
+À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *TwentySeventeen*.
 
 Choisir un thème commercial (“premium”)
 ===
 
 Quelques boutiques de thèmes intéressantes (parmi les milliers qui existent):
 
-* Elma Studio – [http://www.elmastudio.de/en/themes/](http://www.elmastudio.de/en/themes/)
-* The Theme Foundry – [http://thethemefoundry.com/](http://thethemefoundry.com/)
+* Elma Studio – [https://www.elmastudio.de/en/themes/](https://www.elmastudio.de/en/themes/)
+* The Theme Foundry – [https://thethemefoundry.com/](https://thethemefoundry.com/)
 * Array Themes – [https://arraythemes.com/](https://arraythemes.com/)
-
+* Themes Kingdom - [https://themeskingdom.com](https://themeskingdom.com)
 
 
 Il existe de nombreuses autres sources de thèmes commerciaux – voici une liste de boutiques: [http://wordpress.org/themes/commercial/](http://wordpress.org/themes/commercial/)
@@ -77,9 +77,9 @@ Lire aussi à ce sujet :
 * Thèmes WordPress: Comment les choisir?, [http://goo.gl/DNSxfj](http://goo.gl/DNSxfj)
 * Le blog WpThemesPro, par Alex Bortolotti : [http://wp-themes-pro.com/](http://wp-themes-pro.com/)
 
-À noter : normalement, un thème WordPress définit l’apparence visuelle, mais n’ajoute pas de fonctionnalités à un site. Si c’était le cas, cela obligerait l’utilisateur à toujours conserver le même thème, sous peine de perdre la fonctionnalité concernée. 
+À noter : normalement, un thème WordPress définit **l’apparence visuelle**, mais n’ajoute pas de fonctionnalités à un site. Si c’était le cas, cela obligerait l’utilisateur à toujours conserver le même thème, sous peine de perdre la fonctionnalité concernée. 
 
-Les fonctionnalités sont généralement prises en charge par les plugins.
+Les **fonctionnalités** sont généralement prises en charge par les plugins.
 
 Les plugins
 ===
@@ -142,7 +142,7 @@ Deux plugins différents qui permettent d’étendre la fonctionnalité de reche
 
 Plus d’informations sur le choix des plugins :
 
-Jonathan Buttigieg: 10 conseils pour choisir un plugin WordPress, Octobre 2012, [http://goo.gl/dKNTIo](http://goo.gl/dKNTIo)
+Jonathan Buttigieg: *10 conseils pour choisir un plugin WordPress*, Octobre 2012, [http://goo.gl/dKNTIo](http://goo.gl/dKNTIo)
 
 WordPress.org ≠ WordPress.com
 ---
