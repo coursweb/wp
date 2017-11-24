@@ -36,11 +36,13 @@ NB: dans les versions de WordPress plus anciennes, la structure *Nom de l’arti
 
 Décidez si les articles de votre site permettront généralement des commentaires, ou pas.
 
-Cette option se trouve dans *Réglages → Discussion*, et s’intitule Autoriser les visiteurs à publier des commentaires sur les derniers articles. Par défaut, les commentaires sont ouverts sur tous vos articles – ainsi que sur les pages de vos images et fichiers attachés.
+Cette option se trouve dans *Réglages → Discussion*, et s’intitule *Autoriser les visiteurs à publier des commentaires sur les derniers articles* (la 3e case . Par défaut, les commentaires sont ouverts sur tous vos articles – ainsi que sur les pages de vos images et fichiers attachés.
 
-Désactivez ce réglage si vous ne souhaitez pas ouvrir les commentaires sur tous vos articles. 
+Désactivez ce réglage si vous ne souhaitez pas ouvrir les commentaires sur tous vos articles.
 
-Attention : l’effet de ce réglage n’est pas rétroactif. Les articles déjà publiés ne seront pas affectés. Si vous souhaitez fermer les commentaires sur plusieurs articles déjà publiés, faites ceci :
+Par la même occasion, désactivez la 2ème case: *Autoriser les liens de notification*.
+
+Attention : l’effet de ces réglages n’est pas rétroactif. Les articles déjà publiés ne seront pas affectés. Si vous souhaitez fermer les commentaires sur plusieurs articles déjà publiés, faites ceci :
 
 * Aller dans *Articles → Tous les articles*.
 * Si besoin, ouvrir l’onglet *Options de l’écran* et augmenter le nombre d’articles affichés sur chaque page (20 par défaut).

@@ -76,7 +76,7 @@ Une fois que vous avez le ZIP, suivez cette procédure:
 - Cliquez sur *Mettre une extension en ligne*
 - Cliquez sur "Choisissez un fichier" (ou "Choose File"), et sélectionnez votre ZIP.
 - Cliquez sur installer.
-- Si par malchance votre ZIP n'est pas une extension valide, vous verrez un message disant "L’archive n’a pas pu être installée. Aucune extension valide trouvée".
+- Si par votre ZIP n'est pas une extension valide, vous verrez un message disant "L’archive n’a pas pu être installée. Aucune extension valide trouvée".
 - Si votre extension est valide, vous verrez un message disant "L’extension a bien été installée", et un bouton "Activer l'extension". Cliquez-le...
 
 Ça y est, vous avez activé votre extension!
@@ -100,9 +100,11 @@ En bonus, voici un autre exemple d'extension simple et facile à modifier: [WP E
 
 ## Bien nommer vos extensions
 
-**Bon à savoir:** étant donné que WordPress propose automatiquement des mises à jour pour tous les thèmes ou extensions chargés depuis WordPress.org, il est important d'éviter des **conflits de nom** avec des thèmes ou extensions publiés sur ce site. La manière dont WordPress les identifie prend en compte différents facteurs, dont le **nom du dossier**, le "Plugin Name" indiqué dans l'en-tête, et le descriptif. Si vous créez votre propre thème ou extension, veillez donc à ce que le "Plugin Name" et le nom de dossier soient suffisamment "uniques" pour ne pas risquer un conflit (ce qui pourrait conduire votre extension à être remplacée par une autre lors d'une mise à jour).
+**Bon à savoir:** étant donné que WordPress propose automatiquement des mises à jour pour tous les thèmes ou extensions chargés depuis WordPress.org, il est important d'éviter des **conflits de nom** avec des thèmes ou extensions publiés sur ce site. La manière dont WordPress les identifie prend en compte différents facteurs, dont le **nom du dossier**, le "Plugin Name" indiqué dans l'en-tête, et le descriptif. 
 
-Dans l'exemple ci-dessus, on aurait pu nommer l'extension "wp-colorize"... mais les chances sont grandes qu'une extension avec un nom similaire existe déjà, ou voie le jour dans le futur. Il est plus prudent de lui donner un identifiant plus personnalisé, en le nommant p.ex. "wp-eracom-colorize".
+Si vous créez votre propre thème ou extension, veillez donc à ce que le "Plugin Name" et le nom de dossier soient suffisamment "uniques" pour ne pas risquer un conflit (ce qui pourrait conduire votre extension à être remplacée par une autre lors d'une mise à jour).
+
+Dans l'exemple ci-dessus, on aurait pu nommer l'extension "wp-colorize"... mais les chances sont grandes qu'une extension avec un nom similaire existe déjà, ou voie le jour dans le futur! Il est plus prudent de lui donner un identifiant plus personnalisé, en le nommant p.ex. "wp-eracom-colorize".
 
 Plus d'infos à ce sujet:
 
