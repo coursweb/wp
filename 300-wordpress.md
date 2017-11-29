@@ -45,7 +45,10 @@ Les thèmes
 ==
 
 Le thème définit l’habillage graphique de votre site WordPress.
+
 On peut utiliser un thème gratuit, acquérir un thème payant, ou développer un thème sur mesure pour des besoins spécifiques.
+
+
 
 Choisir un thème gratuit
 ===
@@ -58,6 +61,8 @@ Quelques thèmes gratuits de haute qualité:
 - Les thèmes d'Anders Norén: [http://www.andersnoren.se/teman/](http://www.andersnoren.se/teman/)
 
 À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *TwentySeventeen*.
+
+![Quelques-uns des thèmes par défaut de WordPress](/cours-wp/img/wordpress-default-themes.jpg)
 
 Choisir un thème commercial (“premium”)
 ===
@@ -77,22 +82,22 @@ Lire aussi à ce sujet :
 * Thèmes WordPress: Comment les choisir?, [http://goo.gl/DNSxfj](http://goo.gl/DNSxfj)
 * Le blog WpThemesPro, par Alex Bortolotti : [http://wp-themes-pro.com/](http://wp-themes-pro.com/)
 
-À noter : normalement, un thème WordPress définit **l’apparence visuelle**, mais n’ajoute pas de fonctionnalités à un site. Si c’était le cas, cela obligerait l’utilisateur à toujours conserver le même thème, sous peine de perdre la fonctionnalité concernée. 
+À noter : normalement, un thème WordPress définit **l’apparence visuelle**, mais n’ajoute pas de fonctionnalités à un site (comme p.ex. un formulaire de contact). Si c’était le cas, cela obligerait l’utilisateur à toujours conserver le même thème, sous peine de perdre la fonctionnalité concernée. 
 
-Les **fonctionnalités** sont généralement prises en charge par les plugins.
+Les **fonctionnalités** sont en principe fournies par les extensions (plugins). Certains thèmes vont donc recommander l'installation d'extensions spécifiques (p.ex. pour activer de nouveaux types de contenus, tels qu'un "portfolio").
 
-Les plugins
+Les extensions
 ===
 
-Les plugins sont des outils permettant d'étendre les fonctionnalités de WordPress. Les plugins offrent des fonctions personnalisées pour répondre à des besoins spécifiques.
+Les **extensions** sont des outils permettant d'étendre les fonctionnalités de WordPress. Les extensions offrent des fonctions personnalisées pour répondre à des besoins spécifiques.
 
-Le site WordPress.org est la source numéro 1 de plugins. Les plugins qui s’y trouvent ont été approuvés par une équipe de volontaires. Ils sont obligatoirement gratuits et sous licence GPL.
+Le site WordPress.org est la source numéro 1 d'extensions. Les extensions qui s’y trouvent ont été approuvées par une équipe de volontaires. Ils sont obligatoirement gratuits et sous licence GPL.
 
-Ce site propose actuellement près de 30’000 plugins couvrant toutes sortes de besoins. 
+Ce site propose actuellement près de 30’000 extensions couvrant toutes sortes de besoins. 
 
 [http://wordpress.org/plugins/](http://wordpress.org/plugins/)
 
-Voici quelques plugins particulièrement utiles. Ils sont tous gratuits, et se trouvent dans la liste des plugins de wordpress.org.
+Voici quelques extensions particulièrement utiles. Elles sont toutes gratuites, et se trouvent dans la liste des extensions de wordpress.org.
 
 **BuddyPress**
 
@@ -122,15 +127,15 @@ Permet de créer un formulaire de contact. À noter qu’un formulaire de contac
 
 **Statify** 
 
-Un plugin permettant d’avoir des statistiques sur la fréquentation de votre site. Développé en Allemagne, il respecte la réglementation européenne en matière de protection des données. 
+Permet d’avoir des statistiques sur la fréquentation de votre site. Développée en Allemagne, cette extension respecte la réglementation européenne en matière de protection des données. 
 
 **AntispamBee**
 
-Un plugin anti-spam, pour réduire la quantité de spams dans les commentaires de votre site.
+Une extension anti-spam, pour réduire la quantité de spams dans les commentaires de votre site.
 
 **BackWpUp**
 
-Un plugin de backup, qui permet de créer périodiquement des sauvegardes des contenus de votre site.
+Une extension de backup, qui permet de créer périodiquement des sauvegardes des contenus de votre site.
 
 **Duplicate Post**
 
@@ -138,9 +143,9 @@ Permet de partir d’un article existant comme modèle pour créer de nouveaux c
 
 **Search Everything, Relevanssi**
 
-Deux plugins différents qui permettent d’étendre la fonctionnalité de recherche de WordPress.
+Deux extensions différentes qui permettent d’étendre la fonctionnalité de recherche de WordPress.
 
-Plus d’informations sur le choix des plugins :
+Plus d’informations sur le choix des extensions :
 
 Jonathan Buttigieg: *10 conseils pour choisir un plugin WordPress*, Octobre 2012, [http://goo.gl/dKNTIo](http://goo.gl/dKNTIo)
 
@@ -167,6 +172,8 @@ Particularités d’une installation hébergée (.COM) :
 * Ne permet pas l’installation de plugins.
 * Exige de payer un supplément pour certaines fonctions.
 
+![Les offres freemium de WP.COM, fin 2017](/cours-wp/img/wpcom-plans.png)
+
 Plus d’informations sur cette question : 
 
 * Patrick Finot : *WordPress.org et WordPress.com, pourquoi deux systèmes? Comment choisir?*, décembre 2012, [http://goo.gl/QeHn7Z](http://goo.gl/QeHn7Z)
@@ -184,7 +191,7 @@ Lors d'un déménagement de site, il est indispensable d'exporter la base de don
 
 De nombreuses solutions de backup existent, vous permettant de faire des sauvegardes de votre base de données, et des fichiers du site.
 
-TODO: Domaines, hébergement
+Pour les questions relatives aux domaines et à l'hébergement, [voir ce chapitre](/divers/domaines/).
 
 # TODO: Notions de sécurité 
 
