@@ -63,10 +63,3 @@ Si vous perdez ces données en réinstallant MAMP, vérifiez votre corbeille: il
 Un tutoriel complet en anglais:
 
 [https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/](https://www.wpmayor.com/how-to-install-wordpress-locally-on-mac-with-mamp/)
-
-Note concernant Jetpack:
-
-Pour certains thèmes, il faut installer l'extension Jetpack. Jetpack pourra vous demander l'activation du *Custom Content Types Module*. Pour cela, il faut aller dans le menu: *Jetpack > Settings*, puis dans l'onglet *Writing*. Parmi les différents modules proposées, activer celui qui se nomme "Custom Content Types".
-
-
-***

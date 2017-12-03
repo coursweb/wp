@@ -65,4 +65,4 @@ Exercices:
 
 * insérer une image unique.
 * insérer une suite d'images, écrire du texte entre les images.
-* insérer un lien vers une vidéo youtube.
+* insérer un lien vers une vidéo Youtube.
