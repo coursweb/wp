@@ -9,7 +9,7 @@ Introduction à WordPress.
 Définitions
 ---
 
-**WordPress** est un système de gestion de contenus. 
+**WordPress** est un système de gestion de contenus (CMS). 
 
 Par défaut, WordPress comprend un certain nombre de fonctionnalités (p.ex: types de contenus, gestion des menus, gestion des médias, gestion des utilisateurs...). On parle de fonctionnalités faisant partie du noyau de WordPress ("core functionality").
 
@@ -17,12 +17,14 @@ D'autres fonctionalités peuvent être ajoutés par des **extensions** (en angla
 
 Le **thème** définit la présentation visuelle d'un site WordPress. Il est nécessaire d'avoir un thème activé, pour qu'un site WordPress soit fonctionnel. Tout comme pour les plugins, les thèmes WordPress peuvent être disponibles gratuitement ou contre paiement.
 
-Mini-historique:
+Un petit historique:
 ===
 
 L’année 2017 marque le 14e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
 
-En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. En 2011, WordPress fait tourner près de 15% des sites Internet (estimation basée sur 1 million de sites web dans le monde entier). Au cours de l'année 2015, son usage a dépassé les 25%.
+En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. 
+
+WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le mondes. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe actuellement (fin 2017) à 29%. Cela correspondrait à 290 millions de sites, sur un nombre total estimé à un milliard.
 
 Pour plus d’infos sur l’historique de WordPress, lire [https://github.com/WordPress/book](https://github.com/WordPress/book) (en anglais).
 
@@ -192,11 +194,3 @@ Lors d'un déménagement de site, il est indispensable d'exporter la base de don
 De nombreuses solutions de backup existent, vous permettant de faire des sauvegardes de votre base de données, et des fichiers du site.
 
 Pour les questions relatives aux domaines et à l'hébergement, [voir ce chapitre](/divers/domaines/).
-
-# TODO: Notions de sécurité 
-
-gestion de mots de passe, mises à jours, backups.
-
-Chaque jour, la liste des vulnérabilités détectées dans les thèmes et les plugins WordPress ne cesse de s’allonger. Les problèmes de sécurité Web prennent une telle ampleur que Google alerte les propriétaires si leurs sites Web sont piratés. Le moteur de recherche prend les choses très au sérieux, allant jusqu’à souligner que votre version de WordPress doit être mise à jour pour réduire les risques de piratage.
-
-* 15 rappels de sécurité Wordpress * https://wpformation.com/11-rappels-securite-wordpress/
