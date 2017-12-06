@@ -17,7 +17,7 @@ Parmi les autres CMS open source, d'autres outils largement utilisés sont:
 * Magento
 * TYPO3
 
-### Plateformes hébergées
+### Plateformes hébergées
 
 Un autre type de constructeurs de site sont les plateformes hébergées, comparables à WordPress.com.
 
