@@ -17,26 +17,42 @@ Voilà une impression typique d'utilisateur débutant:
 
 Effectivement, WordPress va faire beaucoup de choses à votre place, et un grand nombre de choix de présentation sont imposés par le thème.
 
-## Les pages-archives
+## Pages "single" et pages "archives"
 
-Un concept important est la différence entre les "pages de contenu" et les "pages d'archives".
+Un concept important dans WordPress est la différence entre les pages affichant un **contenu unique** (single), et les pages affichant **une liste de contenus** (archives).
 
-WordPress propose différentes "vues" pour afficher vos contenus. Chaque Article et chaque Page possède son affichage unique, mais WordPress va également générer des vues affichant des **listes d’articles**.
+![Vue unique, vue archive](/cours-wp/img/schema-single-archive.png)
 
-Par défaut, la **page d'accueil** d’un site va montrer une liste d’articles récents. Il existe d’autres pages au format "liste d’articles", produites automatiquement par WordPress.
+Voici les vues qui présentent un contenu unique:
 
-Il s’agit notamment des pages montrant **les archives**, triées par date (jour, mois, année), par catégorie, par étiquette (tag), ou par auteur. 
+- Vue d'un article
+- Vue d'une page
+- Vue d'un fichier attaché
 
-Les pages d’archives par catégorie, ou étiquette, peuvent afficher un descriptif, si celui a été renseigné lors de la saisie du mot-clé.
+Chaque Article et chaque Page possède son affichage unique, mais WordPress va également générer des vues affichant des **listes d’articles**.
 
-## Les catégories comme outil de navigation
+![Article, Page et Archive, dans le thème Libre](/cours-wp/img/single-vs-archive.jpg)
+
+Par défaut, la **page d'accueil** d’un site va montrer une liste d’articles récents. 
+
+Il existe d’autres pages au format "liste d’articles", produites automatiquement par WordPress. Il s’agit notamment des pages montrant **les archives** triées par date (jour, mois, année), par Catégorie, par Étiquette (tag), ou par Auteur. 
+
+Les pages d’archives par Catégorie, ou Étiquette, peuvent afficher une **description**, si celle-ci a été renseignée.
+
+![Affichage d'une description de Catégorie, dans le thème Libre](/cours-wp/img/descriptif-categorie.png)
+
+### Nombre d'éléments des pages archives
+
+Le nombre d'éléments (articles) affichés sur les pages archives correspond à ce qui est configuré dans *Réglages -> Lecture*.
+
+### Les catégories comme outil de navigation
 
 Imaginons que vous voulez créer des « pages » qui listent différents types d’articles par thématique, par exemple la photographie, la vidéo, le design graphique, etc. 
 
-Le problème si vous utilisez des Pages, c'est qu'elles sont très statiques, et qu’il est difficile d’y placer un contenu particulier sous forme d’articles. Il existe une meillure méthode, qui permet d’obtenir des « pages » contenant les articles voulus. 
+Le problème si vous utilisez des Pages, c'est qu'elles sont très statiques, et qu’il est difficile d’y placer un contenu particulier sous forme d’articles. Il existe une meilleure méthode, qui permet d’obtenir des « pages » contenant les articles voulus. 
 
 Il faut commencer par créer des articles, par exemple, des articles sur la photographie. Il est ensuite possible de créer des catégories, et de les attribuer aux articles. 
 
-Maintenant que chaque article possède une catégorie, il faut créer le menu des catégories. Pour cela, il faut se rendre sous l’onglet des menus, qui se trouve sous *Apparence* dans l'interface d'administration de wordpress. 
+Maintenant que chaque article possède une catégorie, il faut créer le menu des catégories. Pour cela, il faut se rendre sous l’onglet des menus, qui se trouve sous *Apparence*. 
 
 Depuis là, il est possible d'ajouter à votre menu de navigation des Catégories, ou des Etiquettes. Il est donc possible avec peu d'effort d'obtenir une structure de navigation reposant sur les catégories. 

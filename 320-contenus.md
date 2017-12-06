@@ -12,26 +12,33 @@ En utilisant votre site WordPress, vous allez travailler avec les éléments sui
 - Posts et Pages
 - Categories, tags et taxonomies
 - Commentaires
-- Les liens
-- Auteurs
 - Menus
 - Widgets
 
-Articles et Pages
-==
+## Articles et Pages
 
 Ce sont les deux principaux types de contenus de WordPress. En anglais, les articles sont nommés « Posts ».
 
-**Particularités des articles :**
+Dans l'interface d'édition, ces contenus ont un champ titre et un champ d'édition à première vue identique. Néanmoins, ces contenus ont leurs particularités:
 
-* Peuvent être classés (par *Catégories* et *Etiquettes*).
+**Particularités des Articles**
+
+* Peuvent être classées (par *Catégories* et *Etiquettes*).
 * La date de publication sera généralement visible.
-* Peuvent recevoir des commentaires.
+* Peuvent recevoir des *commentaires*.
+* Peuvent utiliser les formats d’articles.
+* Sont affichés dans les archives (par date, etc).
 * Sont inclus dans le flux RSS du site.
 
-**Particularités des pages :**
+**Particularités des Pages**
 
 * Peuvent s’organiser de manière hiérarchique (page → sous-page).
+* Ne sont pas affichés dans les archives.
+* Peuvent utiliser les "modèles de pages" (différents pour chaque le thème).
+
+Voici un comparatif entre Article et Page, présentant le même contenu. Le thème utilisé est *Libre*.
+
+![Différences entre Article et Page](/cours-wp/img/articles-vs-pages.jpg)
 
 Pour plus d’explications:
 
@@ -39,8 +46,7 @@ Pour plus d’explications:
 * Support WordPress.com: *[Post vs. Page](https://en.support.wordpress.com/post-vs-page/)*
 * WPBeginner : *[What is the Difference Between Posts vs. Pages in WordPress](http://www.wpbeginner.com/beginners-guide/what-is-the-difference-between-posts-vs-pages-in-wordpress/)*
 
-Catégories, étiquettes (et taxonomies)
-===
+## Catégories, étiquettes (et taxonomies)
 
 Afin d'organiser vos contenus, WordPress utilise le concept de "taxonomie", càd un système de classification pour subdiviser les articles en unités plus gérables.
 
@@ -48,8 +54,16 @@ Les **catégories** et **étiquettes** (tags) sont les deux systèmes de classem
 
 **Pour plus de détails:** voir la présentation de Benjamin Lupu, "[Architecture de l’information pour WordPress](https://wordpress.tv/2016/04/05/benjamin-lupu-architecture-de-linformation-pour-wordpress/)", au WordCamp Paris 2016.
 
-Post Formats (formats alternatifs)
+Exercice: 
 ===
+
+Un blogeur écrit des critiques de livres, de films et de jeux. 
+
+* Créer pour cela une **taxonomie** custom, "Critiques" 
+* Les critiques seront des Articles, les termes de la taxonomie seront « livres », « films », « jeux ».
+* Dans une zone Sidebar, créer un **widget** pour cette Taxonomie. Ce **widget** peut contenir un **menu**, comprenant les pages d’archive des ”livres, films, jeux”.
+
+## Post Formats (formats alternatifs)
 
 Certains thèmes permettent l’utilisation des « formats d’articles » (*Post Formats*), qui offrent une présentation visuelle alternative pour certains formats prédéfinis. Les formats possibles sont: *En passant, Image, Vidéo, Citation, Lien, Galerie, État, Son, Discussion*. Ces formats peuvent être appliqués aux Articles, si le thème supporte cette option. 
 
@@ -61,51 +75,48 @@ La liste des *Post Formats* disponibles est "figée", et limitée à ces dix opt
 
 **NB:** Ne confondez pas *Post Formats* et *Custom Post Types*. Les *Post Formats* sont des articles (*Posts*) avec une présentation alternative, mais restent de simples articles. Les *Custom Post Types* ouvrent une nouvelle dimension en permettant l'ajout de nouveaux types de contenus.
 
-Custom Post Types (types de contenus personnalisés)
-===
+## Custom Post Types (types de contenus personnalisés)
 
 Les *Custom Post Types* permettent d’ajouter de nouveaux *types de contenus* à un site, en plus des contenus par défaut que sont les *Articles*, *Pages*, *Médias* et *Commentaires*. 
 
-Par exemple, un plugin de gestion d’événements pourra ajoutera un type de contenu *Evénement*. Un plugin de vente en ligne ajoutera souvent des *Produits*.
+Recettes de cuisine, produits, objets immobiliers... tout dépendra des besoins de votre site. Ces contenus spécifiques sont appelés des **Custom Post Types** (types de contenus).
+
+Par exemple, un plugin de gestion d’événements pourra ajouter un type de contenu *Evénement*. Un plugin de vente en ligne (comme WooCommerce) ajoutera souvent des *Produits*.
 
 Comme pour les taxonomies, vous êtes libre de créer des *Custom Post Types* correspondant à vos besoins.
 
 L'extension *[Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/)* vous permet de créer facilement des types de contenu et des taxonomies supplémentaires.
 
+### L'option Portfolios avec Jetpack
 
-Les vues archive
-==
+L'extension **Jetpack** offre une option *Portfolios*, qui permet entre autres de présenter des projets sous forme de galerie d'images. Cette option n’est toutefois compatible qu’avec certains thèmes Wordpress.
 
-WordPress produit de manière automatique un certain nombre de vues: 
+* Une fois l'extension Jetpack installée, celle-ci apparaît dans votre tableau de bord Wordpress. Cliquez dessus, puis allez dans *Réglages*.
+* Jetpack vous propose ici diverses fonctionnalités pour votre site internet. Cliquez sur l'onglet *Rédaction* (Writing), puis scrollez jusqu'à la catégorie *Types de contenus personnalisés*. Activez l'option *Portfolios*.
 
-- La page d'accueil (qui présente plusieurs options).
-- Vue d'un article, ou d'une page.
-- Page 404 lorsqu'un contenu est introuvable.
-- Vue des résultats de recherche.
+![Activation des Portfolios de Jetpack](/cours-wp/img/jetpack-activation-portfolio.png)
 
-Certaines de ces vues sont configurées pour présenter un contenu unique:
+* Rechargez votre page. Un onglet *Portfolio* doit maintenant se trouver dans votre tableau de bord.
+* Depuis cet onglet, vous pouvez créer des *Projets*, qui fonctionnent plus ou moins comme des *Articles*. 
+* Afin de présenter vos *Projets* sous forme de galerie d'images (souvent en grille), vous devez à présent créer une *Page*, puis dans *Attributs de page* choisir le *Modèle de page du portefeuille* (cela peut varier selon le thème). 
+* Vous pouvez également classer vos projets par *Types de projets*. Dans l'onglet *Portfolios* de votre tableau de bord, cliquez sur *Types de projets*, puis créez un nouveau type. Lorsque vous créerez un nouveau projet, vous pourrez maintenant lui attribuer un type, ce qui facilitera la navigation à travers vos différents projets.
 
-- Vue d'un article
-- Vue d'une page
-- Vue d'un fichier attaché
+![Modèles Portfolio dans les thèmes Argent, Illustratr, Blask et Deppo](/cours-wp/img/portfolio-themes.jpg)
 
-Certaines de ces vues présentent une **liste de contenus**:
+Quelques thèmes qui utilisent les Porfolios de Jetpack:
 
-- Page d'accueil (si elle n'est pas configurée sur une page, ou modifiée par le thème)
-- Vue des résultats de recherche.
+* [Argent](https://wordpress.com/theme/argent), par Mel Choyce (Automattic)
+* [Blask](https://wordpress.com/theme/blask), par Mel Choyce (Automattic)
+* [Illustratr](https://wordpress.com/theme/illustratr), par Thomas Guillot (Automattic)
+* [Deppo](https://themeskingdom.com/wordpress-themes/deppo-portfolio-wordpress-theme/), par Themes Kingdom
+* [Zeitreise](https://www.elmastudio.de/en/themes/docs/zeitreise/), par Elmastudio
 
-Le nombre d'éléments (articles) affichés correspond à ce qui est configuré dans *Réglages -> Lecture*.
+### Choisir le nom d'un Custom Post Type
 
-Il est important de savoir que de telles vues - une liste de contenus - sont automatiquement générées par WordPress, pour les cas suivants:
+Une autre question qui se pose lorsqu'on définit un nouveau type de contenu: faut-il utiliser le **singulier** ou le **pluriel**? P.ex. si vous ajoutez un type de contenu "Projets", faut-il que son identifiant soit "projet" ou "projets"? 
 
-- Vue archive par date (jour, mois, année)
-- Vue archive par catégorie
-- Vue archive par étiquette (tag)
-- Vue archive par auteur
-- Vue archive par taxonomie personnalisée
-- Vue archive par contenu personnalisé
+La pratique habituelle est d'utiliser le singulier. Cela donne des URL plus courtes, et c'est plus cohérent: en effet, l'URL "projet/nom-du-projet" affichera **un** projet à la fois.
 
-Les pages d’archives par catégorie ou mot-clé peuvent afficher un **descriptif**, si celui a été renseigné lors de la saisie du mot-clé.
 
 Les auteurs
 ===
