@@ -26,6 +26,8 @@ En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic,
 
 WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le mondes. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe actuellement (fin 2017) à 29%. Cela correspondrait à 290 millions de sites, sur un nombre total estimé à un milliard.
 
+![Statistiques d'utilisation des CMS de 2011 à 2017.](/cours-wp/img/wordpress-usage-2017.png)
+
 Pour plus d’infos sur l’historique de WordPress, lire [https://github.com/WordPress/book](https://github.com/WordPress/book) (en anglais).
 
 Blog vs. CMS
