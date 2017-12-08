@@ -45,6 +45,34 @@ Les pages d’archives par Catégorie, ou Étiquette, peuvent afficher une **des
 
 Le nombre d'éléments (articles) affichés sur les pages archives correspond à ce qui est configuré dans *Réglages -> Lecture*.
 
+## Page d'accueil statique / page des articles
+
+Comme on l'a vu, le comportement par défaut de la page d'accueil est de lister les plus récents articles.
+
+Il est possible de changer ce réglage! Vous pouvez décider d'afficher sur la page d'accueil l'une de vos Pages... et si cette page utilise un Modèle de page spécifique, il sera utilisé pour la page d'accueil.
+
+Ce réglage se trouve dans *Personnaliser > Réglages de la page d'accueil*.
+
+![Réglage de la page d'accueil statique](/cours-wp/img/reglages-accueil-statique.png)
+
+Certains thèmes proposent des modèles spécialement conçus pour la page d'accueil, comportant différentes sections. Quelques exemples:
+
+**TwentyTwelve** comporte un modèle de page "Front Page Template". Ce modèle possède deux *zones de widget* apparaissant uniquement sur ce template.
+
+![Le modèle Front Page dans TwentyTwelve](/cours-wp/img/themes/twentytwelve-frontpage.jpg)
+
+**[Edin](https://wordpress.com/theme/edin)** (créé par Thomas Guillot et Takashi Irie en 2014), comporte un modèle "Front Page". Ce modèle comporte de nombreuses options: il comporte trois zones de widgets spécifiques au modèle "Front Page", mais également trois vignettes permettant d'afficher un aperçu de trois pages. Celles-ci peuvent être sélectionnées dans *Personnaliser > Options du thème*.
+
+![Le modèle Front Page dans Edin](img/themes/edin-frontpage.jpg)
+
+Actuellement (fin 2017), WordPress n'a pas de méthode standardisée pour créer ce type de page modulaire. Il est donc nécessaire d'étudier le fonctionnement spécique du thème que vous utilisez.
+
+### La page des articles
+
+Si vous définissez une **Page d'accueil statique**, vous "perdez" du même coup la vue par défaut qui affichait les derniers articles...
+
+Pour conserver cette vue, dans un autre endroit du site, vous pouvez définir la Page des articles.
+
 ### Les catégories comme outil de navigation
 
 Imaginons que vous voulez créer des « pages » qui listent différents types d’articles par thématique, par exemple la photographie, la vidéo, le design graphique, etc. 

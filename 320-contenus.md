@@ -9,8 +9,8 @@ Les contenus d’un site WordPress
 
 En utilisant votre site WordPress, vous allez travailler avec les éléments suivants :
 
-- Posts et Pages
-- Categories, tags et taxonomies
+- Articles et Pages (et autres contenus)
+- Catégories et Etiquettes (et autres taxonomies)
 - Commentaires
 - Menus
 - Widgets
@@ -98,7 +98,7 @@ L'extension **Jetpack** offre une option *Portfolios*, qui permet entre autres d
 
 * Rechargez votre page. Un onglet *Portfolio* doit maintenant se trouver dans votre tableau de bord.
 * Depuis cet onglet, vous pouvez créer des *Projets*, qui fonctionnent plus ou moins comme des *Articles*. 
-* Afin de présenter vos *Projets* sous forme de galerie d'images (souvent en grille), vous devez à présent créer une *Page*, puis dans *Attributs de page* choisir le *Modèle de page du portefeuille* (cela peut varier selon le thème). 
+* Afin de présenter vos *Projets* sous forme de galerie d'images (souvent en grille), vous devez à présent créer une *Page*, puis dans *Attributs de page* choisir le *Modèle de page Portfolio* (cela dépend de votre thème). 
 * Vous pouvez également classer vos projets par *Types de projets*. Dans l'onglet *Portfolios* de votre tableau de bord, cliquez sur *Types de projets*, puis créez un nouveau type. Lorsque vous créerez un nouveau projet, vous pourrez maintenant lui attribuer un type, ce qui facilitera la navigation à travers vos différents projets.
 
 ![Modèles Portfolio dans les thèmes Argent, Illustratr, Blask et Deppo](/cours-wp/img/portfolio-themes.jpg)
