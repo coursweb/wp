@@ -103,55 +103,23 @@ Ce site propose actuellement près de 30’000 extensions couvrant toutes sortes
 
 Voici quelques extensions particulièrement utiles. Elles sont toutes gratuites, et se trouvent dans la liste des extensions de wordpress.org.
 
-**BuddyPress**
+<div class="cards"></div>
 
-Permet de créer un réseau social interne à un site WordPress.
-
-**bbPress**
-
-Permet de créer un forum.
-
-**Jetpack**
-
-Un ensemble de fonctionnalités, développées à l’origine pour les usagers de WordPress.com. Cela inclut notamment un “carrousel” pour la présentation des galeries d’images, des fonctions de partage sur les réseaux sociaux, un module de statistiques pour analyser les visites de votre site...
-
-**WooCommerce**
-
-Permet la création d’une boutique en ligne. Lancé en 2011, ce plugin est en passe de devenir la solution de vente en ligne la plus utilisée au monde (actuellement 10% des sites e-commerce).     
-Source : [http://trends.builtwith.com/shop    ](http://trends.builtwith.com/shop )
-Lire aussi : Allain Lagadic, “WooCommerce : Passer d’un blog à une boutique en ligne”, Août 2013, [http://interactif.com/?p=1026](http://interactif.com/?p=1026)
-
-**MailPoet**
-
-Permet d’administrer une newsletter depuis votre site WordPress.
-
-**Contact Form 7**
-
-Permet de créer un formulaire de contact. À noter qu’un formulaire de contact est également inclus dans Jetpack.
-
-**Statify** 
-
-Permet d’avoir des statistiques sur la fréquentation de votre site. Développée en Allemagne, cette extension respecte la réglementation européenne en matière de protection des données. 
-
-**AntispamBee**
-
-Une extension anti-spam, pour réduire la quantité de spams dans les commentaires de votre site.
-
-**BackWpUp**
-
-Une extension de backup, qui permet de créer périodiquement des sauvegardes des contenus de votre site.
-
-**Duplicate Post**
-
-Permet de partir d’un article existant comme modèle pour créer de nouveaux contenus.
-
-**Search Everything, Relevanssi**
-
-Deux extensions différentes qui permettent d’étendre la fonctionnalité de recherche de WordPress.
+* **BuddyPress** - Permet de créer un réseau social interne à un site WordPress.
+* **bbPress** - Permet de créer un forum.
+* **Jetpack** - Un ensemble de fonctionnalités, développées à l’origine pour les usagers de WordPress.com. Cela inclut notamment un “carrousel” pour la présentation des galeries d’images, des fonctions de partage sur les réseaux sociaux, un module de statistiques pour analyser les visites de votre site...
+* **WooCommerce** - Permet la création d’une boutique en ligne. Lancé en 2011, ce plugin est en passe de devenir la solution de vente en ligne [la plus utilisée au monde](https://trends.builtwith.com/shop). Lire aussi : Allain Lagadic, [WooCommerce : Passer d’un blog à une boutique en ligne](https://interactif.com/woocommerce-boutique-en-ligne-wordpress/), Août 2013.
+* **MailPoet** - Permet d’administrer une newsletter depuis votre site WordPress.
+* **Contact Form 7** - Permet de créer un formulaire de contact. À noter qu’un formulaire de contact est également inclus dans Jetpack.
+* **Statify** - Permet d’avoir des statistiques sur la fréquentation de votre site. Développée en Allemagne, cette extension respecte la réglementation européenne en matière de protection des données. 
+* **AntispamBee** - Une extension anti-spam, pour réduire la quantité de spams dans les commentaires de votre site.
+* **BackWpUp** - Une extension de backup, qui permet de créer périodiquement des sauvegardes des contenus de votre site.
+* **Duplicate Post** - Permet de partir d’un article existant comme modèle pour créer de nouveaux contenus.
+* **Search Everything, Relevanssi** - Deux extensions différentes qui permettent d’étendre la fonctionnalité de recherche de WordPress.
 
 Plus d’informations sur le choix des extensions :
 
-Jonathan Buttigieg: *10 conseils pour choisir un plugin WordPress*, Octobre 2012, [http://goo.gl/dKNTIo](http://goo.gl/dKNTIo)
+Jonathan Buttigieg: *[10 conseils pour choisir un plugin WordPress](http://www.geekpress.fr/comment-choisir-plugin/)*.
 
 WordPress.org ≠ WordPress.com
 ---
@@ -180,8 +148,8 @@ Particularités d’une installation hébergée (.COM) :
 
 Plus d’informations sur cette question : 
 
-* Patrick Finot : *WordPress.org et WordPress.com, pourquoi deux systèmes? Comment choisir?*, décembre 2012, [http://goo.gl/QeHn7Z](http://goo.gl/QeHn7Z)
-* Fabrice Ducarme : *WordPress.com ou WordPress.org, quelle différence ?*, avril 2013, [http://goo.gl/VEjKII](http://goo.gl/VEjKII)
+* Patrick Finot : *[WordPress.org et WordPress.com, pourquoi deux systèmes? Comment choisir?](http://www.informatique-enseignant.com/deux-systemes-wordpress-comment-choisir/)*, décembre 2012.
+* Fabrice Ducarme : *[WordPress.com ou WordPress.org, quelle différence ?](https://wpformation.com/wordpress-com-vs-wordpress-org-quelle-difference/)*, avril 2013.
 
 ## Technique
 
