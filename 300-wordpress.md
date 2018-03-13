@@ -9,7 +9,7 @@ Introduction à WordPress.
 Définitions
 ---
 
-**WordPress** est un système de gestion de contenus (CMS). 
+**WordPress** est un système de gestion de contenus (CMS, pour Content Management System). 
 
 Par défaut, WordPress comprend un certain nombre de fonctionnalités (p.ex: types de contenus, gestion des menus, gestion des médias, gestion des utilisateurs...). On parle de fonctionnalités faisant partie du noyau de WordPress ("core functionality").
 
@@ -20,11 +20,11 @@ Le **thème** définit la présentation visuelle d'un site WordPress. Il est né
 Un petit historique:
 ===
 
-L’année 2017 marque le 14e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
+L’année 2018 marquera le 15e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
 
 En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. 
 
-WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le mondes. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe actuellement (fin 2017) à 29%. Cela correspondrait à 290 millions de sites, sur un nombre total estimé à un milliard.
+WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le monde. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe actuellement (fin 2017) à 29%. Cela correspondrait à 290 millions de sites, sur un nombre total estimé à un milliard.
 
 ![Statistiques d'utilisation des CMS de 2011 à 2017.](/cours-wp/img/wordpress-usage-2017.png)
 
@@ -43,7 +43,7 @@ WordPress est un logiciel libre, sa liberté étant garantie par la licence GPL.
 Thèmes et Extensions
 ---
 
-Les thèmes et les extensions (plugins) sont deux éléments fondamentaux pour faire fonctionner votre site WordPress.
+Les **thèmes** et les **extensions** (plugins) sont deux éléments fondamentaux pour faire fonctionner votre site WordPress.
 
 Les thèmes
 ==
