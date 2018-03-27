@@ -24,7 +24,7 @@ L’année 2018 marquera le 15e anniversaire de WordPress, la version 1.0 ayant 
 
 En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. 
 
-WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le monde. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe actuellement (fin 2017) à 29%. Cela correspondrait à 290 millions de sites, sur un nombre total estimé à un milliard.
+WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le monde. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe en début 2018 à 30%. Cela correspondrait à 300 millions de sites, sur un nombre total estimé à un milliard.
 
 ![Statistiques d'utilisation des CMS de 2011 à 2017.](/cours-wp/img/wordpress-usage-2017.png)
 
