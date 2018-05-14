@@ -97,9 +97,9 @@ Les **extensions** sont des outils permettant d'étendre les fonctionnalités de
 
 Le site WordPress.org est la source numéro 1 d'extensions. Les extensions qui s’y trouvent ont été approuvées par une équipe de volontaires. Ils sont obligatoirement gratuits et sous licence GPL.
 
-Ce site propose actuellement près de 30’000 extensions couvrant toutes sortes de besoins. 
+Ce site propose actuellement plus de 50’000 extensions couvrant toutes sortes de besoins. 
 
-[http://wordpress.org/plugins/](http://wordpress.org/plugins/)
+[https://fr.wordpress.org/plugins/](https://fr.wordpress.org/plugins/)
 
 Voici quelques extensions particulièrement utiles. Elles sont toutes gratuites, et se trouvent dans la liste des extensions de wordpress.org.
 
