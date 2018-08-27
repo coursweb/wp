@@ -59,10 +59,11 @@ Choisir un thème gratuit
 
 Quelques thèmes gratuits de haute qualité:
 
-- Les thèmes l’équipe Automattic : [http://profiles.wordpress.org/automattic/](http://profiles.wordpress.org/automattic/)
+- Les thèmes l’équipe Automattic : [https://profiles.wordpress.org/automattic/#content-themes](https://profiles.wordpress.org/automattic/)
 - Le blog ThemeShaper présente des thèmes récents: [https://themeshaper.com/](https://themeshaper.com/) 
 - Une collection de thèmes par Hugo Baeta: [http://hugobaeta.com/portfolio/thefivethemes/](http://hugobaeta.com/portfolio/thefivethemes/)
 - Les thèmes d'Anders Norén: [http://www.andersnoren.se/teman/](http://www.andersnoren.se/teman/)
+- Les thèmes de  Sami Keijonen: [https://foxland.fi/](https://foxland.fi/)
 
 À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *TwentySeventeen*.
 
