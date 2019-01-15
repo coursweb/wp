@@ -96,7 +96,7 @@ Une fois que c'est fait, vous pouvez retourner dans l'espace d'administration de
 
 Voilà, vous connaissez maintenant trois manières d'installer une extension WordPress!
 
-En bonus, voici un autre exemple d'extension simple et facile à modifier: [WP Eracom Colorize](https://github.com/eracom-gr351/wp-eracom-colorize/). Il s'agit d'une extension qui a pour but de modifier les couleurs de votre site en fonction des saisons, ou d'une date particulière. 
+En bonus, voici un autre exemple d'extension simple et facile à modifier: [WP Eracom Colorize](https://github.com/eracom/wp-eracom-colorize/). Il s'agit d'une extension qui a pour but de modifier les couleurs de votre site en fonction des saisons, ou d'une date particulière. 
 
 ## Bien nommer vos extensions
 
