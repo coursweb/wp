@@ -118,8 +118,7 @@ Une autre question qui se pose lorsqu'on définit un nouveau type de contenu: fa
 La pratique habituelle est d'utiliser le singulier. Cela donne des URL plus courtes, et c'est plus cohérent: en effet, l'URL "projet/nom-du-projet" affichera **un** projet à la fois.
 
 
-Les auteurs
-===
+## Les auteurs
 
 Votre site comprendra un ou plusieurs auteurs avec différents niveaux d’accès. Par défaut, WordPress offre les rôles suivants : 
 

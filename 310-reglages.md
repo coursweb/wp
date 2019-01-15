@@ -62,7 +62,7 @@ Configurer les formats des versions *miniatures*, *moyennes* et *grandes* de vos
 
 ![Tailles par défaut des images](/cours-wp/img/config/medias-default.png)
 
-De manière générale, les valeurs proposées (150 px pour les miniatures, 300 pour les moyennes, 1024 pour les grandes), qui ont été définies en 2008, vont produire des images trop petites selon les standards de 2017. Il est donc indiqué d'augmenter ces valeurs lors de la configuration du site.
+De manière générale, les valeurs proposées (150 px pour les miniatures, 300 pour les moyennes, 1024 pour les grandes), qui ont été définies en 2008, vont produire des images trop petites selon les standards actuels. Il est donc indiqué d'augmenter ces valeurs lors de la configuration du site.
 
 Voici un exemple de réglage plus approprié:
 
