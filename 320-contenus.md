@@ -111,6 +111,12 @@ Quelques thèmes qui utilisent les Porfolios de Jetpack:
 * [Deppo](https://themeskingdom.com/wordpress-themes/deppo-portfolio-wordpress-theme/), par Themes Kingdom
 * [Zeitreise](https://www.elmastudio.de/en/themes/docs/zeitreise/), par Elmastudio
 
+Jetpack n'est pas la seule possibilité pour créer un type de contenu "portfolio" - d'autres solutions existent :
+
+- [Custom Content Portfolio](https://fr.wordpress.org/plugins/custom-content-portfolio/), une extension de Justin Tadlock. Ces portfolios comportent certains champs spécifiques (project image, URL, client, location, start/end dates, and a description).
+- [Genesis Portfolio Pro](https://wordpress.org/plugins/genesis-portfolio-pro/), par StudioPress. Utilisé par les thèmes de cette agence.
+-
+
 ### Choisir le nom d'un Custom Post Type
 
 Une autre question qui se pose lorsqu'on définit un nouveau type de contenu: faut-il utiliser le **singulier** ou le **pluriel**? P.ex. si vous ajoutez un type de contenu "Projets", faut-il que son identifiant soit "projet" ou "projets"? 
