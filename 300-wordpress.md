@@ -20,7 +20,7 @@ Le **thème** définit la présentation visuelle d'un site WordPress. Il est né
 Un petit historique:
 ===
 
-L’année 2018 marquera le 15e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
+L’année 2019 marquera le 16e anniversaire de WordPress, la version 1.0 ayant vu le jour en 2003.
 
 En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic, et lance la plate-forme d’hébergement WordPress.com. 
 
