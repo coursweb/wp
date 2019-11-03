@@ -115,7 +115,7 @@ Jetpack n'est pas la seule possibilité pour créer un type de contenu "portfoli
 
 - [Custom Content Portfolio](https://fr.wordpress.org/plugins/custom-content-portfolio/), une extension de Justin Tadlock. Ces portfolios comportent certains champs spécifiques (project image, URL, client, location, start/end dates, and a description).
 - [Genesis Portfolio Pro](https://wordpress.org/plugins/genesis-portfolio-pro/), par StudioPress. Utilisé par les thèmes de cette agence.
--
+- [Portfolio Post Type](https://wordpress.org/plugins/portfolio-post-type/), utilisé par les thèmes de ThemeBeans.
 
 ### Choisir le nom d'un Custom Post Type
 
