@@ -8,7 +8,7 @@ WordPress n'est évidemment pas le seul outil permettant de construire un site. 
 
 ![Statistiques d'utilisation de CMS, fin 2017](/cours-wp/img/wordpress-usage-2017.png)
 
-### CMS open-source
+### Autres CMS open-source
 
 Parmi les autres CMS open source, d'autres outils largement utilisés sont: 
 
@@ -16,6 +16,33 @@ Parmi les autres CMS open source, d'autres outils largement utilisés sont:
 * Drupal
 * Magento
 * TYPO3
+
+CMS commerciaux:
+* [Craft](https://craftcms.com/) (licence: $299/site)
+* [Perch](https://grabaperch.com/) (licence: $69/site)
+
+### Les CMS en fichiers statistiques
+
+Une alternative aux CMS utilisant les bases de données. Il existe plusieurs sous-catégories:
+
+Les "Static Site Generators" (générateurs de sites statiques), qui permettent de générer le site en fichiers HTML. Ils n'ont pas d'interface de gestion. Les contenus sont édités directement dans des fichiers texte, souvent en format Markdown. Des exemples de cette catégorie:
+
+* [Jekyll](https://jekyllrb.com/) - l'un des plus anciens, écrit en Ruby. Utilisé par Github.
+* [Hugo](https://gohugo.io/) - écrit en GoLang.
+
+Une autre catégorie sont des "file-based CMS" qui offrent une interface d'administration.
+
+Open source:
+* [Grav](https://getgrav.org/)
+* [Gatsby](https://www.gatsbyjs.org/) - basé sur ReactJS. Souvent utilisé pour construire un front-end ultra-rapide, avec des contenus provenant d'un CMS classique comme WordPress. 
+
+Commercial: 
+* [Kirby](https://getkirby.com/) (licence: €99/site)
+* [Statamic](https://statamic.com/) (licence: $199/site)
+
+Autres services utilisés pour créer des CMS:
+* [Netlify](https://www.netlify.com/), service de déploiement
+* [Contentful](https://www.contentful.com/). Peut être utilisé p.ex. avec Gatsby
 
 ### Plateformes hébergées
 
@@ -48,8 +75,8 @@ Fonctions très riches pour les blogs
 Très centré sur l'esthétisme et la simplicité
 
 **Pour sites de vente (ecommerce):**
-
-* [Bigcartel](https://www.bigcartel.com/)
 * [Shopify](https://www.shopify.com/) - outil récent (apparu en 2014), il est en place no 6 des CMS les plus populaires.
+* [Bigcartel](https://www.bigcartel.com/)
+
 
 
