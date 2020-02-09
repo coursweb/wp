@@ -55,6 +55,17 @@ Voir aussi :
 
 * Patrick Finot, *[La gestion des images dans WordPress](http://www.informatique-enseignant.com/gestion-images-wordpress/)*, septembre 2013 
 
+## Extensions pour les galeries d'images
+
+Quelques extensions qui améliorent l'expérience des galeries, en appliquant une fenêtre modale de type "Lightbox".
+
+- [Jetpack](https://wordpress.org/plugins/jetpack/), qui inclut un [Carousel](https://jetpack.com/support/carousel/) pour les galeries. Propose des vues en mosaique (effet Masonry).
+- [Lightbox with PhotoSwipe](https://wordpress.org/plugins/lightbox-photoswipe/).
+- [WP Featherlight](https://wordpress.org/plugins/wp-featherlight/)
+- [Liste des extensions](https://wordpress.org/plugins/tags/lightbox/) avec le tag "lightbox".
+
+Voir aussi la documentation concernant les librairies JavaScript Lightbox.
+
 TODO: 
 
 - reformater, crop d'une image.
