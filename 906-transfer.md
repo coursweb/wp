@@ -67,8 +67,24 @@ Vous avez maintenant besoin du fichier de votre base de données. Selon la versi
 Vous devez maintenant **importer** cette base de données sur votre serveur web. Vous devez vous rendre dans l'interface d'administration de la base de données, et procéder à une importation.
 
 Exemple:
+![](/cours-wp/img/phpmyadmin-1.png)
+
+![](/cours-wp/img/phpmyadmin-2.png)
+
+![](/cours-wp/img/phpmyadmin-3.png)
+
+## Derniers correctifs
+
+- Dans l'admin de la base base de données, naviguer dans: **wp_options**
+- Modifier les deux premières entrées: "siteurl" et "home" - ces champs doivent contenir votre vraie URL. Faire un double clic pour modifier.
+- Vérifiez aussi l'entrée numéro 6, "admin_email", et corrigez le mail si nécessaire.
 
 
+## Regénérer le fichier .htaccess
 
+Vous pouvez maintenant visiter la page d'accueil de votre site, et voir si elle fonctionne.
+Par contre, pour que les liens internes du sitent fonctionnent, il faut regénérer le fichier invisible ".htaccess" que vous n'avez probablement pas transféré.
 
+Pour cela, visitez votre interface d'administration WordPress en mettant "/wp-admin" après l'URL de votre site.
 
+Connectez-vous avec votre Login WordPress, puis allez dans Réglages > Permaliens. Vérifiez que tout est ok, et cliquez "Enregistrer les modifications". En faisant cela, WordPress génère un fichier .htaccess, nécessaire pour que les permaliens du site fonctionnent.
