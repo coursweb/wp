@@ -15,6 +15,9 @@ Vous devez avoir:
 Pour obtenir ces fichiers statiques:
 
 - Exporter le site depuis Local. Cela va produire un .zip
+
+![Menu d'exportation dans Local](/cours-wp/img/local-export.png)
+ 
 - Dézipper le .zip, et aller dans le dossier "app"
 - Vous avez un dossier "public" qui contient les fichiers statiques.
 - Parmi ces fichiers, ouvrez le fichier wp-config.php avec un éditeur de code.
@@ -42,7 +45,7 @@ define( 'DB_HOST', 'localhost' );
 
 Dans la ligne `define( 'DB_NAME', 'local' );` vous remplacez "local" par le nom de votre base de données, qui pourrait ressembler à `bleg_id461_leo`.
 
-Pour les deux lignes suivantes, vous remplacez "root" par votre utilisateur MySQL, puis le mot de passe de cet utilisateur.
+Pour les deux lignes suivantes, vous remplacez "root" par votre utilisateur MySQL, puis par le mot de passe de cet utilisateur.
 
 Finalement, le "localhost", selon votre configuration de serveur, pourra être différent. Par exemple chez Infomaniak, il est spécifique au compte utilisateur, et peut ressembler à: `bleg.myd.infomaniak.com`.
 
@@ -59,7 +62,13 @@ Vous avez maintenant besoin du fichier de votre base de données. Selon la versi
 - Aller dans le fichier exporté, dossier "app/sql", et vous trouverez un fichier "local.sql" (un fichier).
 - Dans l'interface de Local, choisir "Database" > "Adminer". Dans cet outil d'administration, cliquer "Exporter", sélectionner "Sortie: Enregistrer", et encore une fois le bouton "Enregistrer"... cela produira également un fichier "local.sql".
 
-Vous devez maintenant importer cette base de données sur votre serveur web. Vous devez vous rendre dans l'interface d'administration de la base de donnée, et procéder à une importation.
+![Exportation depuis Adminer](/cours-wp/img/adminer-export.png)
+
+Vous devez maintenant **importer** cette base de données sur votre serveur web. Vous devez vous rendre dans l'interface d'administration de la base de données, et procéder à une importation.
+
+Exemple:
+
+
 
 
 
