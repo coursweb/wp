@@ -20,7 +20,7 @@ Parmi les autres CMS open source, d'autres outils largement utilisés sont:
 CMS commerciaux:
 * [Craft](https://craftcms.com/) (licence: $299/site)
 * [Perch](https://grabaperch.com/) (licence: $69/site)
-* [Kirby](https://getkirby.com/)
+* [Kirby](https://getkirby.com/) (licence: €99/site)
 
 ### Les CMS en fichiers statistiques
 
@@ -35,8 +35,8 @@ Les "Static Site Generators" (générateurs de sites statiques), qui permettent 
 Une autre catégorie sont des "file-based CMS" qui offrent une interface d'administration.
 
 Open source:
-* [Grav](https://getgrav.org/)
-* [Gatsby](https://www.gatsbyjs.org/) - basé sur ReactJS. Souvent utilisé pour construire un front-end ultra-rapide, avec des contenus provenant d'un CMS classique comme WordPress. 
+* [Grav](https://getgrav.org/) - l'interface nécessite PHP.
+* [Gatsby](https://www.gatsbyjs.org/) - basé sur ReactJS et NodeJS. Souvent utilisé pour construire un front-end ultra-rapide, avec des contenus provenant d'un CMS classique comme WordPress. 
 
 Commercial: 
 * [Kirby](https://getkirby.com/) (licence: €99/site)
@@ -44,7 +44,7 @@ Commercial:
 
 Autres services utilisés pour créer des CMS:
 * [Netlify](https://www.netlify.com/), service de déploiement
-* [Contentful](https://www.contentful.com/). Peut être utilisé p.ex. avec Gatsby
+* [Contentful](https://www.contentful.com/). Peut être utilisé p.ex. avec Gatsby.
 
 Le site [StaticGen.com](https://www.staticgen.com/) maintient une liste des nombreux générateurs de sites statiques.
 
