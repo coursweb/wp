@@ -54,8 +54,6 @@ Par la même occasion, désactivez la 2ème case: *Autoriser les liens de notifi
 * Parmi les options proposées dans le champ *Modifications groupées*, repérer le menu déroulant des Commentaires, et choisir *Refuser* pour fermer les commentaires.
 * Cliquer sur le bouton *Mettre à jour* – mission accomplie !
 
-**PS:** si vous souhaitez désactiver complètement les commentaires sur un site, vous pouvez utiliser l'extension [Disable Comments](https://wordpress.org/plugins/disable-comments/), qui fera cela très simplement et proprement.
-
 ## 4) Les formats d’images
 
 Configurer les formats des versions *miniatures*, *moyennes* et *grandes* de vos images. Ce réglage se trouve sous *Réglages → Médias*. Les dimensions idéales vont varier en fonction du thème que vous utilisez.
