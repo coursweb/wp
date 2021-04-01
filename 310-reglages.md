@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Réglages
-permalink: /wp/reglages
+permalink: reglages.html
 ---
 
 Réglages initiaux d’un site WordPress
@@ -17,7 +17,7 @@ Quelques réglages initiaux qu’il est utile de faire aussi tôt que possible l
 
 Sous *Réglages → Lecture → Visibilité pour les moteurs de recherche*. Ce réglage permet d’empêcher l’indexation d’un site par les engins de recherche. Votre site n’apparaîtra donc pas dans les résultats de recherche Google. Utile si le contenu du site est bidon et que le site n'est pas prêt. **Attention à ne pas oublier de changer ce réglage lorsque vous finissez la phase développement!**
 
-![Réglage visibilité](/cours-wp/img/config/visibilite-google.png)
+![Réglage visibilité](img/config/visibilite-google.png)
 
 ## 2) La structure des permaliens
 
@@ -27,7 +27,7 @@ Dans la page de configuration *Réglages → Permaliens*, vous pouvez choisir un
 
 La structure recommandée par spécialistes de l’optimisation pour moteurs de recherche (SEO) est la plus simple : *Nom de l’article*.
 
-![Réglage permaliens](/cours-wp/img/config/permaliens.png)
+![Réglage permaliens](img/config/permaliens.png)
 
 Ainsi le permalien de votre article va ressembler à `monsite.com/recette-tarte-aux-pommes` – il sera à la fois plus parlant pour l’utilisateur, et plus pertinent pour l’indexation par les moteurs de recherche.
 
@@ -43,7 +43,7 @@ Désactivez ce réglage si vous ne souhaitez pas ouvrir les commentaires sur tou
 
 Par la même occasion, désactivez la 2ème case: *Autoriser les liens de notification*.
 
-![Options de discussion](/cours-wp/img/config/options-discussion.png)
+![Options de discussion](img/config/options-discussion.png)
 
 **Attention :** l’effet de ces réglages n’est pas rétroactif. Les articles déjà publiés ne seront pas affectés. Si vous souhaitez fermer les commentaires sur plusieurs articles déjà publiés, faites ceci :
 
@@ -58,7 +58,7 @@ Par la même occasion, désactivez la 2ème case: *Autoriser les liens de notifi
 
 Configurer les formats des versions *miniatures*, *moyennes* et *grandes* de vos images. Ce réglage se trouve sous *Réglages → Médias*. Les dimensions idéales vont varier en fonction du thème que vous utilisez.
 
-![Tailles par défaut des images](/cours-wp/img/config/medias-default.png)
+![Tailles par défaut des images](img/config/medias-default.png)
 
 De manière générale, les valeurs proposées (150 px pour les miniatures, 300 pour les moyennes, 1024 pour les grandes), qui ont été définies en 2008, vont produire des images trop petites selon les standards actuels. Il est donc indiqué d'augmenter ces valeurs lors de la configuration du site.
 
@@ -68,6 +68,6 @@ Voici un exemple de réglage plus approprié:
 * **Moyennes:** 1000 x 1000 px
 * **Grandes:** 2000 x 2000 px
 
-![Tailles suggérées](/cours-wp/img/config/medias-custom.png)
+![Tailles suggérées](img/config/medias-custom.png)
 
 **Attention:** en cas de modification de ces valeurs, les nouveaux réglages seront pris en compte pour les futurs ajouts uniquement. Ils *ne vont pas s'appliquer* aux images déjà existantes. Pour les images précédemment importées, il faudra "recalculer les miniatures", ce que l'on peut faire au moyen d'une extension (p.ex. *[Regenerate Thumbnails](https://wordpress.org/plugins/regenerate-thumbnails/)*).

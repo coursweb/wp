@@ -1,7 +1,7 @@
 ---
 layout: page
 title: WordPress
-permalink: /wp/
+permalink: index.html
 ---
 
 Introduction à WordPress.
