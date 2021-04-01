@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Multimédia
-permalink: /wp/multimedia
 ---
 
 # Fichiers multimedia

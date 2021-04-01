@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Ressources WordPress
-permalink: /wp/ressources
 ---
 
 Pour en savoir plus...

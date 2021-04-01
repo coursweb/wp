@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Installation Hostpoint
-permalink: /wp/installation-hostpoint
 ---
 
 Ce document indique comment installer un site WordPress chez l'hébergeur [Hostpoint](https://www.hostpoint.ch/fr/). Chez d'autres hébergeurs, la procédure sera relativement semblable. Nous utilisons l'installation "one-click" proposée par l'hébergeur.

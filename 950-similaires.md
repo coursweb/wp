@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Logiciels similaires
-permalink: /wp/similaires/
 ---
 
 WordPress n'est évidemment pas le seul outil permettant de construire un site. Il existe de nombreuses autres plateformes.

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Structure
-permalink: /wp/structure
 ---
 
 Comprendre la structure d'un site WordPress
@@ -21,7 +20,7 @@ Effectivement, WordPress va faire beaucoup de choses à votre place, et un grand
 
 Un concept important dans WordPress est la différence entre les pages affichant un **contenu unique** (single), et les pages affichant **une liste de contenus** (archives).
 
-![Vue unique, vue archive](/cours-wp/img/schema-single-archive.png)
+![Vue unique, vue archive](img/schema-single-archive.png)
 
 Voici les vues qui présentent un contenu unique:
 
@@ -31,7 +30,7 @@ Voici les vues qui présentent un contenu unique:
 
 Chaque Article et chaque Page possède son affichage unique, mais WordPress va également générer des vues affichant des **listes d’articles**.
 
-![Article, Page et Archive, dans le thème Libre](/cours-wp/img/single-vs-archive.jpg)
+![Article, Page et Archive, dans le thème Libre](img/single-vs-archive.jpg)
 
 Par défaut, la **page d'accueil** d’un site va montrer une liste d’articles récents. 
 
@@ -39,7 +38,7 @@ Il existe d’autres pages au format "liste d’articles", produites automatique
 
 Les pages d’archives par Catégorie, ou Étiquette, peuvent afficher une **description**, si celle-ci a été renseignée.
 
-![Affichage d'une description de Catégorie, dans le thème Libre](/cours-wp/img/descriptif-categorie.png)
+![Affichage d'une description de Catégorie, dans le thème Libre](img/descriptif-categorie.png)
 
 ### Nombre d'éléments des pages archives
 
@@ -53,13 +52,13 @@ Il est possible de changer ce réglage! Vous pouvez décider d'afficher sur la p
 
 Ce réglage se trouve dans *Personnaliser > Réglages de la page d'accueil*.
 
-![Réglage de la page d'accueil statique](/cours-wp/img/reglages-accueil-statique.png)
+![Réglage de la page d'accueil statique](img/reglages-accueil-statique.png)
 
 Certains thèmes proposent des modèles spécialement conçus pour la page d'accueil, comportant différentes sections. Quelques exemples:
 
 **TwentyTwelve** comporte un modèle de page "Front Page Template". Ce modèle possède deux *zones de widget* apparaissant uniquement sur ce template.
 
-![Le modèle Front Page dans TwentyTwelve](/cours-wp/img/themes/twentytwelve-frontpage.jpg)
+![Le modèle Front Page dans TwentyTwelve](img/themes/twentytwelve-frontpage.jpg)
 
 **[Edin](https://wordpress.com/theme/edin)** (créé par Thomas Guillot et Takashi Irie en 2014), comporte un modèle "Front Page". Ce modèle comporte de nombreuses options: il comporte trois zones de widgets spécifiques au modèle "Front Page", mais également trois vignettes permettant d'afficher un aperçu de trois pages. Celles-ci peuvent être sélectionnées dans *Personnaliser > Options du thème*.
 

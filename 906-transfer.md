@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Transfer de site
-permalink: /wp/transfer
 ---
 
 Mettre sur votre serveur web un site développé en local.

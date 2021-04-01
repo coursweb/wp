@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Texte et formatage
-permalink: /wp/texte-formatage
+permalink: texte-formatage.html
 ---
 
 Texte brut et wysiwyg
