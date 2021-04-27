@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Thème enfant
-permalink: /wp/theme-enfant
+permalink: theme-enfant.html
 ---
 
 Un **thème enfant** permet d’ajouter des fonctions à un thème WordPress, sans pour autant modifier les fichiers du thème de base (susceptible d’être mis à jour).

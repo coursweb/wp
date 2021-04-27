@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Modifier un thème
-permalink: /wp/modifier
+permalink: modifier.html
 ---
 
 Modifier un thème WordPress

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Transfer de site
+permalink: transfer.html
 ---
 
 Mettre sur votre serveur web un site développé en local.
@@ -42,17 +43,17 @@ define( 'DB_PASSWORD', 'root' );
 define( 'DB_HOST', 'localhost' );
 ```
 
-Dans la ligne `define( 'DB_NAME', 'local' );` vous remplacez "local" par le nom de votre base de données, qui pourrait ressembler à `bleg_id461_leo`.
+Dans la ligne `define( 'DB_NAME', 'local' );` vous remplacez "local" par le nom de votre base de données, qui pourrait ressembler à `foo_id461_leo`.
 
 Pour les deux lignes suivantes, vous remplacez "root" par votre utilisateur MySQL, puis par le mot de passe de cet utilisateur.
 
-Finalement, le "localhost", selon votre configuration de serveur, pourra être différent. Par exemple chez Infomaniak, il est spécifique au compte utilisateur, et peut ressembler à: `bleg.myd.infomaniak.com`.
+Finalement, le "localhost", selon votre configuration de serveur, pourra être différent. Par exemple chez Infomaniak, il est spécifique au compte utilisateur, et peut ressembler à: `foo.myd.infomaniak.com`.
 
 Une fois ces quatre données corrigées, enregistrez vos modifications.
 
 ## Mise en ligne par FTP
 
-Vous pouvez maintenant mettre en ligne tous les fichiers (le contenu du dossier "public") en utilisant un logiciel FTP. Voir [Outils > FTP](https://cours-web.ch/outils/ftp/).
+Vous pouvez maintenant mettre en ligne tous les fichiers (le contenu du dossier "public") en utilisant un logiciel FTP. Voir [Outils > FTP](https://cours-web.ch/outils/ftp.html).
 
 ## Migrer la base de données
 

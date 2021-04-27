@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Images
-permalink: /wp/images
+permalink: images.html
 ---
 
 WordPress permet d’ajouter des médias (images, fichiers audio et vidéo, etc) à vos contenus.

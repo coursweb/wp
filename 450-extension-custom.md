@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Extensions
-permalink: /wp/extensions
+permalink: extensions.html
 ---
 
 On a vu qu'un **thème enfant** est utile pour modifier l'apparence d'un thème, et lui apporter des personnalisations.

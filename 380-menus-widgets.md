@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Menus et widgets
-permalink: /wp/menus-widgets
+permalink: menus-widgets.html
 ---
 
 Gestion des menus

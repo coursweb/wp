@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Troubleshooting
-permalink: /wp/troubleshooting
+permalink: troubleshooting.html
 ---
 
 Comment résoudres des problèmes...
