@@ -26,7 +26,7 @@ En 2005, Matt Mullenweg, initiateur de WordPress, fonde sa compagnie Automattic,
 
 WordPress devient en quelques années le système de gestion de sites (CMS) le plus utilisé dans le monde. En 2011, WordPress faisait tourner près de 15% des sites Internet. Son usage dépasse les 25% en 2015, et se situe en début 2018 à 30%. Cela correspondrait à 300 millions de sites, sur un nombre total estimé à un milliard.
 
-![Statistiques d'utilisation des CMS de 2011 à 2017.](/cours-wp/img/wordpress-usage-2017.png)
+![Statistiques d'utilisation des CMS de 2011 à 2017.](img/wordpress-usage-2017.png)
 
 Pour plus d’infos sur l’historique de WordPress, lire [https://github.com/WordPress/book](https://github.com/WordPress/book) (en anglais).
 
@@ -65,7 +65,7 @@ Quelques thèmes gratuits de haute qualité:
 
 À noter : WordPress est accompagné par plusieurs thèmes par défaut. Un nouveau thème est développé chaque année. Le plus récent se nomme *[Twenty Twenty-One](https://make.wordpress.org/core/2020/09/23/introducing-twenty-twenty-one/)*.
 
-![Quelques-uns des thèmes par défaut de WordPress](/cours-wp/img/wordpress-default-themes.jpg)
+![Quelques-uns des thèmes par défaut de WordPress](img/wordpress-default-themes.jpg)
 
 Choisir un thème commercial (“premium”)
 ===
@@ -136,7 +136,7 @@ Particularités d’une installation hébergée (.COM) :
 * Ne permet pas l’installation de plugins.
 * Exige de payer un supplément pour certaines fonctions.
 
-![Les offres freemium de WP.COM, fin 2017](/cours-wp/img/wpcom-plans.png)
+![Les offres freemium de WP.COM, fin 2017](img/wpcom-plans.png)
 
 Plus d’informations sur cette question : 
 

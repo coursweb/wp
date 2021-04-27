@@ -37,7 +37,7 @@ Dans l'interface d'édition, ces contenus ont un champ titre et un champ d'édit
 
 Voici un comparatif entre Article et Page, présentant le même contenu. Le thème utilisé est *Libre*.
 
-![Différences entre Article et Page](/cours-wp/img/articles-vs-pages.jpg)
+![Différences entre Article et Page](img/articles-vs-pages.jpg)
 
 Pour plus d’explications:
 
@@ -66,7 +66,7 @@ Un blogeur écrit des critiques de livres, de films et de jeux.
 
 Certains thèmes permettent l’utilisation des « formats d’articles » (*Post Formats*), qui offrent une présentation visuelle alternative pour certains formats prédéfinis. Les formats possibles sont: *En passant, Image, Vidéo, Citation, Lien, Galerie, État, Son, Discussion*. Ces formats peuvent être appliqués aux Articles, si le thème supporte cette option. 
 
-![Le sélecteur de Format dans l’interface d’édition](/cours-wp/img/wordpress-post-formats.png)
+![Le sélecteur de Format dans l’interface d’édition](img/wordpress-post-formats.png)
 
 La liste des *Post Formats* disponibles est "figée", et limitée à ces dix options. L'idée est d'encourager les concepteurs de thème à créer des affichages spécifiques pour ces formats, afin d'éviter de les perdre en cas de changement de thème.
 
@@ -93,14 +93,14 @@ L'extension **Jetpack** offre une option *Portfolios*, qui permet entre autres d
 * Une fois l'extension Jetpack installée, celle-ci apparaît dans votre tableau de bord Wordpress. Cliquez dessus, puis allez dans *Réglages*.
 * Jetpack vous propose ici diverses fonctionnalités pour votre site internet. Cliquez sur l'onglet *Rédaction* (Writing), puis scrollez jusqu'à la catégorie *Types de contenus personnalisés*. Activez l'option *Portfolios*.
 
-![Activation des Portfolios de Jetpack](/cours-wp/img/jetpack-activation-portfolio.png)
+![Activation des Portfolios de Jetpack](img/jetpack-activation-portfolio.png)
 
 * Rechargez votre page. Un onglet *Portfolio* doit maintenant se trouver dans votre tableau de bord.
 * Depuis cet onglet, vous pouvez créer des *Projets*, qui fonctionnent plus ou moins comme des *Articles*. 
 * Afin de présenter vos *Projets* sous forme de galerie d'images (souvent en grille), vous devez à présent créer une *Page*, puis dans *Attributs de page* choisir le *Modèle de page Portfolio* (cela dépend de votre thème). 
 * Vous pouvez également classer vos projets par *Types de projets*. Dans l'onglet *Portfolios* de votre tableau de bord, cliquez sur *Types de projets*, puis créez un nouveau type. Lorsque vous créerez un nouveau projet, vous pourrez maintenant lui attribuer un type, ce qui facilitera la navigation à travers vos différents projets.
 
-![Modèles Portfolio dans les thèmes Argent, Illustratr, Blask et Deppo](/cours-wp/img/portfolio-themes.jpg)
+![Modèles Portfolio dans les thèmes Argent, Illustratr, Blask et Deppo](img/portfolio-themes.jpg)
 
 Quelques thèmes qui utilisent les Porfolios de Jetpack:
 

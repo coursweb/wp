@@ -16,7 +16,7 @@ Votre thème proposera un ou plusieurs emplacements pour les menus de navigation
 * Ajouter des éléments de navigation au menu.
 * Associer le menu à l’un des emplacements proposés par le thème.
 
-![Les zones de menu du thème Deppo](/cours-wp/img/zones-menu-deppo.png)
+![Les zones de menu du thème Deppo](img/zones-menu-deppo.png)
 
 **NB:** Les menus ne servent pas uniquement à créer la navigation d'un site. Ils peuvent être utilisés pour gérer une liste de liens, p.ex. une liste de réseaux sociaux (profils Facebook, Twitter, Instagram...). Ou une liste de liens, externes ou internes, que vous souhaitez rendre accessible dans une *Sidebar* ou un *Footer*. Les menus peuvent être placés dans les zones de menu, mais aussi dans n'importe quelle *Zone de widget* de votre thème.
 
@@ -29,7 +29,7 @@ Similaires aux Menus, les **Widgets** sont de petits modules pouvant être gliss
 
 WordPress contient par défaut un certain nombre de Widgets. D'autres widgets peuvent être ajoutés par une extension ou un thème.
 
-![Les widgets par défaut](/cours-wp/img/default-widgets.jpg)
+![Les widgets par défaut](img/default-widgets.jpg)
 
 Un thème WordPress peut offrir une ou plusieurs "Zones de widgets", dans lesquelles vous pouvez librement placer des widgets.
 

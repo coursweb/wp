@@ -5,7 +5,7 @@ title: Logiciels similaires
 
 WordPress n'est évidemment pas le seul outil permettant de construire un site. Il existe de nombreuses autres plateformes.
 
-![Statistiques d'utilisation de CMS, fin 2017](/cours-wp/img/wordpress-usage-2017.png)
+![Statistiques d'utilisation de CMS, fin 2017](img/wordpress-usage-2017.png)
 
 ### Autres CMS open-source
 

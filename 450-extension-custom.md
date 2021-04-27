@@ -50,14 +50,14 @@ Voici le détail de ces trois opérations:
 
 ### 1 : Installer depuis WordPress.org
 
-![Ajouter une extension](/cours-wp/img/ajouter-extension.png)
+![Ajouter une extension](img/ajouter-extension.png)
 
 - Dans l'espace d'administration de votre site, allez sous *Extensions*. 
 - Cliquez sur *Ajouter*.
 - Cherchez l'extension souhaitée via le champ de recherche. Si p.ex. vous cherchez une extension pour ajouter un formulaire de contact, entrez "contact form". Une recherche sera effectuée parmi les quelque 50'000 extensions publiées sur WordPress.org.
 - Une fois que vous trouvez l'extension souhaitée, vous pouvez cliquer sur "Installer".
 
-![Chercher une extension](/cours-wp/img/chercher-extension.png)
+![Chercher une extension](img/chercher-extension.png)
 
 Cette méthode ne permet pas d'activer une extension que vous auriez développé vous-même, ou provenant d'une source autre que WordPress.org (p.ex. publiée sur Github, comme c'est le cas pour *Vol de Nuit*). Si vous êtes dans ce cas, utilisez une des deux méthodes suivantes...
 
@@ -67,7 +67,7 @@ Dans ce cas de figure, vous vous êtes procuré le fichier du plugin que vous so
 
 Dans le cas de [Vol de Nuit](https://github.com/collectifwp/vol-de-nuit/), vous pouvez télécharger l'extension depuis GitHub en cliquant "Clone or download", puis "Download ZIP". 
 
-![Téléchargement depuis GitHub](/cours-wp/img/download-from-github.png)
+![Téléchargement depuis GitHub](img/download-from-github.png)
 
 Une fois que vous avez le ZIP, suivez cette procédure:
 
@@ -90,7 +90,7 @@ Dans la mesure où vous connaissez les codes d'accès FTP à votre espace web, v
 * Vous verrez les dossiers des extensions installées.
 * Vous pouvez ajouter le dossier de votre extension - attention, pas le ZIP, mais le dossier décompressé!
 
-![Exemple de dossier "plugins"](/cours-wp/img/dossier-plugins-ftp.png)
+![Exemple de dossier "plugins"](img/dossier-plugins-ftp.png)
 
 Une fois que c'est fait, vous pouvez retourner dans l'espace d'administration de votre site. Si vous avez correctement fait l'opération, en allant sous Extensions, vous verrez que l'extension mise en ligne par FTP est installée. Il ne vous reste plus qu'à cliquer "Activer".
 

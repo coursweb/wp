@@ -15,7 +15,7 @@ Pour obtenir ces fichiers statiques:
 
 - Exporter le site depuis Local. Cela va produire un .zip
 
-![Menu d'exportation dans Local](/cours-wp/img/local-export.png)
+![Menu d'exportation dans Local](img/local-export.png)
  
 - Dézipper le .zip, et aller dans le dossier "app"
 - Vous avez un dossier "public" qui contient les fichiers statiques.
@@ -61,16 +61,16 @@ Vous avez maintenant besoin du fichier de votre base de données. Selon la versi
 - Aller dans le fichier exporté, dossier "app/sql", et vous trouverez un fichier "local.sql" (un fichier).
 - Dans l'interface de Local, choisir "Database" > "Adminer". Dans cet outil d'administration, cliquer "Exporter", sélectionner "Sortie: Enregistrer", et encore une fois le bouton "Enregistrer"... cela produira également un fichier "local.sql".
 
-![Exportation depuis Adminer](/cours-wp/img/adminer-export.png)
+![Exportation depuis Adminer](img/adminer-export.png)
 
 Vous devez maintenant **importer** cette base de données sur votre serveur web. Vous devez vous rendre dans l'interface d'administration de la base de données, et procéder à une importation.
 
 Exemple:
-![](/cours-wp/img/phpmyadmin-1.png)
+![](img/phpmyadmin-1.png)
 
-![](/cours-wp/img/phpmyadmin-2.png)
+![](img/phpmyadmin-2.png)
 
-![](/cours-wp/img/phpmyadmin-3.png)
+![](img/phpmyadmin-3.png)
 
 ## Derniers correctifs
 

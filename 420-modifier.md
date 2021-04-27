@@ -38,7 +38,7 @@ Pour commencer, nous devons trouver un moyen de créer du CSS personnalisé. Dep
 
 Vous trouverez cette option sous *Apparence > Personnaliser*, dans la section nommée *CSS additionnel*. Tous les styles que vous ajoutez ici seront chargés dans l'en-tête de votre site. C'est donc un bon moyen de surchager les styles de votre thème.
 
-![Ajout de CSS additionnel](/cours-wp/img/wp-customizer-css-fr.png)
+![Ajout de CSS additionnel](img/wp-customizer-css-fr.png)
 
 Votre CSS personnalisé sera sauvegardé séparément pour chacun de vos thèmes.
 
@@ -49,7 +49,7 @@ Maintenant que nous avons la technique en place, nous devons trouver quel est le
 
 Supposons que nous utilisons le thème Cubic, un thème développé par [Thomas Guillot](https://thomasguillot.com/2015/01/16/new-theme-cubic/) pour Automattic, dont voici [la page de démonstration](https://cubicdemo.wordpress.com/).
 
-![Le thème Cubic](/cours-wp/img/cubic-homepage.jpg)
+![Le thème Cubic](img/cubic-homepage.jpg)
 
 Supposons que la présence des dates de publication au-dessus des titres nous déplait, et que nous souhaitons les masquer.
 
@@ -57,11 +57,11 @@ Nous allons utiliser l'inspecteur de notre navigateur, pour détecter les *ident
 
 Faites un clic-droit sur l'élément qui vous intéresse, et choisissez "Inspecter".
 
-![](/cours-wp/img/chrome-inspect.jpg)
+![](img/chrome-inspect.jpg)
 
 Avec l'aide de l'inspecteur, vous pouvez parcourir le code, et vérifier comment se nomme l'élément à masquer.
 
-![](/cours-wp/img/inspection-code.png)
+![](img/inspection-code.png)
 
 Ici, nous voyons que l'élément `<header class="entry-header">`contient à la fois la date et le titre. L'élément `<div class="entry-meta">` contient la date uniquement. 
 
@@ -77,7 +77,7 @@ Voyons ce qui se produit si nous ajoutons le code suivant à notre CSS custom:
 
 Note: la propriété [`display`](https://developer.mozilla.org/fr/docs/Web/CSS/display) avec la valeur `none` permet de masquer un élément.
 
-![](/cours-wp/img/resultat-1.jpg)
+![](img/resultat-1.jpg)
 
 Résultat: la date est effectivement masquée... mais l'absence d'espacement au-dessus du titre est plutôt disgrâcieux.
 
@@ -101,7 +101,7 @@ Nous allons reprendre ce code, en modifiant les valeurs:
 
 Ajoutons ce code à notre CSS custom, et obervons le résultat:
 
-![](/cours-wp/img/dates-masquees.jpg)
+![](img/dates-masquees.jpg)
 
 Un détail: nous aurions pu ajouter cette marge sur un autre élément, comme `.entry-header`, ou `.entry-title` — cela donnerait le même résultat visuellement. Pourquoi avoir choisi de le mettre sur `.entry-title a`? 
 
@@ -112,7 +112,7 @@ Un deuxième exemple...
 
 Après ce premier succès, intéressons-nous aux pages individuelles des articles. Nous pouvons voir que chaque article comporte une section "Posté dans... Tagué..." qui peut paraître superflue.
 
-![](/cours-wp/img/entry-footer.jpg)
+![](img/entry-footer.jpg)
 
 Ici encore, l'inspecteur nous révèle le nom de cette zone:
 
@@ -130,7 +130,7 @@ Essayons le code CSS custom suivant:
 
 Cela fonctionne, ces métadonnées sont désormais masquées. Le seul point dérangeant est la marge qui devient trop étroite (24px pour la marge du bas, alors que celle du haut est de 72px).
 
-![](/cours-wp/img/inspect-single.jpg)
+![](img/inspect-single.jpg)
 
 On peut voir dans le code que les 72px sont définis de la manière suivante:
 

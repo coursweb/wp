@@ -14,7 +14,7 @@ Voici comment faire cette configuration chez Infomaniak:
 - Connectez vous à la [console d'administration](https://manager.infomaniak.com) (sur la page d'accueil, cliquer *Connexion > Manager*).
 - Rendez-vous dans **Noms de domaine**, cliquez sur le domaine, puis sur **Gestion des DNS**.
 
-![Choisir Gestion des DNS](/cours-wp/img/hostpoint/Infomaniak_dns0.png)
+![Choisir Gestion des DNS](img/hostpoint/Infomaniak_dns0.png)
 
 - Cliquez "Modifier les serveurs DNS"
 - Remplacez les réglages existants par les serveurs de noms suivants :
@@ -47,7 +47,7 @@ Pour commencer, allez à [https://admin.hostpoint.ch/](https://admin.hostpoint.c
 - Choisir votre nom de domaine.
 - Entrez le chemin du répertoire qui contiendra votre site, selon ce modèle: `prenom/nomdusite.com/web`
 
-![Définition du répertoire](/cours-wp/img/hostpoint/chemin-repertoire.png)
+![Définition du répertoire](img/hostpoint/chemin-repertoire.png)
 
 Voici les trois niveaux de dossiers utilisés dans cette configuration:
 
@@ -62,7 +62,7 @@ Votre site est créé, il reste encore à installer WordPress. Voici la marche �
 - Aller dans **Sites Web: Applications**
 - Cliquer sur **Applications Disponibles**
 
-![Comment installer WordPress](/cours-wp/img/hostpoint/hostpoint-applications.png)
+![Comment installer WordPress](img/hostpoint/hostpoint-applications.png)
 
 - Choisir **WordPress > Installer**.
 - Choisir votre nom de domaine dans la liste. 
@@ -72,6 +72,6 @@ Votre site est créé, il reste encore à installer WordPress. Voici la marche �
 
 **Important:** à la fin de l'installation, une page d'informations vous affichera le **nom d’utilisateur** et **mot de passe** de votre site WordPress. Copiez ces informations, car *c'est le seul moment* où vous les verrez affichées!
 
-![Infos de connexion](/cours-wp/img/hostpoint/infos-wp.png)
+![Infos de connexion](img/hostpoint/infos-wp.png)
 
 Vous pouvez désormais vous connecter à votre site WordPress, en visitant l'interface d'administration sous `nomdusite.com/wp-admin`.

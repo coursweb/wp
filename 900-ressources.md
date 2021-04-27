@@ -31,7 +31,7 @@ La communauté de WordPress
 
 Une communauté active d’utilisateurs s’est formée autour de WordPress, donnant lieu à des rencontres (*meetups*) et des conférences nommées WordCamps. Chaque année, plus de 50 WordCamps se déroulent dans le monde, et des centaines de conférences sont enregistrées et publiées sur [WordPress.tv](https://wordpress.tv/)
 
-![](/cours-wp/img/wordcamp-paris-2016.jpg)  
+![](img/wordcamp-paris-2016.jpg)  
 *WordCamp Paris, en janvier 2016*
 
 
@@ -42,7 +42,7 @@ Le Meetup WordPress Genève
 
 À Genève, le groupe meetup WordPress organise des conférences et workshops gratuits, pour utilisateurs débutants et avancés, environ une fois par mois. 
 
-![](/cours-wp/img/meetup-wp-bureauculturel.jpeg)  
+![](img/meetup-wp-bureauculturel.jpeg)  
 *Un workshop du Meetup WordPress Genève, au Bureau Culturel*
 
 Plus d'infos et inscriptions sur : 
