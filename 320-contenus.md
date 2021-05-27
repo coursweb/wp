@@ -61,17 +61,6 @@ Un blogeur écrit des critiques de livres, de films et de jeux.
 * Les critiques seront des Articles, les termes de la taxonomie seront « livres », « films », « jeux ».
 * Dans une zone Sidebar, créer un **widget** pour cette Taxonomie. Ce **widget** peut contenir un **menu**, comprenant les pages d’archive des ”livres, films, jeux”.
 
-## Post Formats (formats alternatifs)
-
-Certains thèmes permettent l’utilisation des « formats d’articles » (*Post Formats*), qui offrent une présentation visuelle alternative pour certains formats prédéfinis. Les formats possibles sont: *En passant, Image, Vidéo, Citation, Lien, Galerie, État, Son, Discussion*. Ces formats peuvent être appliqués aux Articles, si le thème supporte cette option. 
-
-![Le sélecteur de Format dans l’interface d’édition](img/wordpress-post-formats.png)
-
-La liste des *Post Formats* disponibles est "figée", et limitée à ces dix options. L'idée est d'encourager les concepteurs de thème à créer des affichages spécifiques pour ces formats, afin d'éviter de les perdre en cas de changement de thème.
-
-**Note historique:** Les *Post Formats* on été introduits en 2011 ([ticket 14746](https://core.trac.wordpress.org/ticket/14746)). En 2013, au cours de la release 3.6, l'équipe de développement à tenté de donner plus d'importance aux *Post Formats* dans l'interface d'édition. Ces tentatives ont finalement été rejetées, après des débats houleux. Voir [cet article de Mark Jaquith](https://make.wordpress.org/core/2013/05/29/post-formats-ui-is-exiting-core-will-live-as-a-plugin/) pour plus de détails.
-
-**NB:** Ne confondez pas *Post Formats* et *Custom Post Types*. Les *Post Formats* sont des articles (*Posts*) avec une présentation alternative, mais restent de simples articles. Les *Custom Post Types* ouvrent une nouvelle dimension en permettant l'ajout de nouveaux types de contenus.
 
 ## Custom Post Types (types de contenus personnalisés)
 
