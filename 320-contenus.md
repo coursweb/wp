@@ -41,8 +41,7 @@ Voici un comparatif entre Article et Page, présentant le même contenu. Le thè
 
 Pour plus d’explications:
 
-* Olivier Grobet : *[Différences entre une Page et un article](http://www.elephorm.com/tutoriel-wordpress/differences-entre-une-page-un-article)* (vidéo)
-* Support WordPress.com: *[Post vs. Page](https://en.support.wordpress.com/post-vs-page/)*
+* Support WordPress.com: *[Post vs. Page](https://wordpress.com/fr/support/article-vs-page/)*
 * WPBeginner : *[What is the Difference Between Posts vs. Pages in WordPress](http://www.wpbeginner.com/beginners-guide/what-is-the-difference-between-posts-vs-pages-in-wordpress/)*
 
 ## Catégories, étiquettes (et taxonomies)
