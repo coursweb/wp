@@ -67,6 +67,8 @@ Certains thèmes proposent des modèles spécialement conçus pour la page d'acc
 
 Actuellement (fin 2017), WordPress n'a pas de méthode standardisée pour créer ce type de page modulaire. Il est donc nécessaire d'étudier le fonctionnement spécique du thème que vous utilisez.
 
+UPDATE: Depuis l'introduction du nouvel éditeur ("bloc editor"), il est possible de créer ce type de page modulaire, sans que le thème doive fournir un modèle particulier.
+
 ### La page des articles
 
 Si vous définissez une **Page d'accueil statique**, vous "perdez" du même coup la vue par défaut qui affichait les derniers articles...

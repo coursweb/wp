@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Multimédia
+permalink: multimedia.html
 ---
 
 # Fichiers multimedia
