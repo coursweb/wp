@@ -35,6 +35,8 @@ Pour reformater un grand nombre d’images (p.ex. suite à un changement de thè
 
 Attention: Si vous mettez en ligne des images de très grand format (5000 x 4000 pixels et au-delà), il se peut que votre serveur ne parvienne pas à calculer les versions miniatures. Il affichera dans ce cas la version originale, dont le poids va considérablement ralentir le chargement de votre site. Veillez donc à mettre en ligne des images de taille raisonnable. Le format vidéo HD actuel – 1920 pixels de large – est une limite supérieure appropriée pour les écrans actuels.
 
+Vous pouvez utiliser une extension comme "[Resize Image After Upload](https://fr.wordpress.org/plugins/resize-image-after-upload/)" pour limiter la taille des images.
+
 Définir une image « à la une »
 ===
 

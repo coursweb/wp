@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Structure
+permalink: structure.html
 ---
 
 Comprendre la structure d'un site WordPress

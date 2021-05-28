@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contenus
+permalink: contenus.html
 ---
 
 Les contenus d’un site WordPress
