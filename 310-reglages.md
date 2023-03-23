@@ -37,7 +37,7 @@ NB: dans les versions de WordPress plus anciennes, la structure *Nom de l’arti
 
 Décidez si les articles de votre site autoriseront les commentaires, ou pas.
 
-Cette option se trouve dans *Réglages → Discussion*, et s’intitule *Autoriser les visiteurs à publier des commentaires sur les nouveaux articles* (la 3e case). Par défaut, les commentaires sont ouverts sur tous vos articles – ainsi que sur les pages de vos images et fichiers attachés.
+Cette option se trouve dans *Réglages → Commentaires*, et s’intitule *Autoriser les visiteurs à publier des commentaires sur les nouveaux articles* (la 3e case). Par défaut, les commentaires sont ouverts sur tous vos articles – ainsi que sur les pages de vos images et fichiers attachés.
 
 Désactivez ce réglage si vous ne souhaitez pas ouvrir les commentaires sur tous vos articles.
 
